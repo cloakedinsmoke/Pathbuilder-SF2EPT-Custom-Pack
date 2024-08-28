@@ -1,0 +1,2146 @@
+{
+  "customPackID": "1193a7fb-8caa-406b-a522-ee4725182f32",
+  "customPackName": "SF2E PT Ancestries Android to Pahtra",
+  "listCustomWeapons": [
+    {
+      "databaseID": 1,
+      "uniqueIdentiier": "dc195f77-72cb-4347-9a3a-6616d8f0e0c6",
+      "name": "Pahtra Claw Attack",
+      "hands": "1+",
+      "description": "A claw unarmed attack deals 1d6 slashing damage and has the agile, finesse, pahtra, and unarmed traits.",
+      "src": "Custom",
+      "proficiencyType": 3,
+      "damage": 6,
+      "group": "Brawling",
+      "weaponTraits": "Pahtra, Agile, Finesse, Pahtra, Unarmed, 3rd Party"
+    },
+    {
+      "databaseID": 1,
+      "timestamp": "1724817467071",
+      "uniqueIdentiier": "22836450-32bc-43f2-b00c-bf9ebae4da25",
+      "name": "Barathu Tentacle Whip",
+      "hands": "1+",
+      "description": "A tentacle that can lash out like a whip. You gain a tentacle unarmed attack that deals 1d6 bludgeoning damage.",
+      "src": "Custom",
+      "action0": 1,
+      "action0desc": "A tentacle that can lash out like a whip. You gain a tentacle unarmed attack that deals 1d6 bludgeoning damage.",
+      "proficiencyType": 3,
+      "damage": 6,
+      "damageType": "B",
+      "group": "Brawling",
+      "weaponTraits": "Barathu, Finesse, Reach, Unarmed, 3rd Party"
+    },
+    {
+      "databaseID": 1,
+      "uniqueIdentiier": "77d64258-3277-4f38-8cdf-1187ab8c8f3b",
+      "name": "Pahtra Jaw Attack",
+      "hands": "1+",
+      "description": "A claw unarmed attack deals 1d6 slashing damage and has the agile, finesse, pahtra, and unarmed traits.",
+      "src": "Custom",
+      "proficiencyType": 3,
+      "damage": 6,
+      "damageType": "P",
+      "group": "Brawling",
+      "weaponTraits": "Pahtra, Finesse, Grapple, Unarmed, 3rd Party"
+    }
+  ],
+  "listCustomFeats": [
+    {
+      "id": "b4dc08f3-57b7-446a-b0b9-0d3aa032e57c",
+      "name": "Sense Magic's Song",
+      "level": 9,
+      "textDescription": "<p>Prerequisites trained in Arcana, Nature, Occultism, or Religion</p><br><hr><br><p>You hear the thrum of magic as if it were a swirling, shifting melody, a harmonic chord, or a percussive beat, pulsing in tune with your heart. You can detect the presence of magic as though you were always using a 1st-rank <em>detect magic</em>spell. This detects magic within a 30-foot emanation.</p><br><p>At 13th level, the rank of <em>detect magic </em>increases to 3rd. At 17th level, the rank of <em>detect magic </em>increases to 4th.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "hashMapRequiredProficiences": {
+        "Arcana||Nature||Occultism||Religion": 2
+      },
+      "databaseID": 1
+    },
+    {
+      "id": "123f3cf5-b359-4f3d-82f6-d50de3d6c0e5",
+      "name": "Meyel's Melody",
+      "level": 9,
+      "reqFeats": [
+        "db570161-7d71-4bb5-85c7-71e57f9ff6f8"
+      ],
+      "textDescription": "<p>Divine rhythm pulses through your blood. You gain a +2 status bonus to Performance checks. In addition, you can use Performance to Create a Diversion, Make an Impression, or Demoralize. If you listen to music while resting, you regain a number of additional Hit Points equal to your level.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Performance",
+          "bonusType": 1,
+          "bonusAmount": 2
+        }
+      ]
+    },
+    {
+      "id": "300bc2e1-f35a-46cc-b942-493ccc942d0f",
+      "name": "Harmonic Shielding",
+      "level": 9,
+      "reqFeats": [
+        "2e45f4d2-022b-4e98-87a3-8c350147fbc3||b6012412-58f7-4d8a-95d8-0f3dd2894fb4"
+      ],
+      "textDescription": "<p><strong>Prerequisites </strong>Harmonic Sensitivity</p><br><hr><br><p>Your hypersensitivity to soundwaves has conditioned your body to resist loud noises and shield you from their harmful effects. You gain sonic resistance equal to half your level. If you roll a success on a saving throw against a sonic effect, you get a critical success instead.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Sonic",
+          "effectType": 12,
+          "bonusType": 1
+        }
+      ]
+    },
+    {
+      "id": "518ef6b5-021c-478a-80bf-1cc955862c64",
+      "name": "Long Whiskered",
+      "textDescription": "<p>Your whiskers function as advanced electroreceptors, allowing you to orient yourself more easily. At the end of each round in which you are untethered, attempt a DC 15 flat check. On a success, you ignore the clumsy and off-guard conditions imposed by being in zero-g for 1 minute.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "b6012412-58f7-4d8a-95d8-0f3dd2894fb4",
+      "name": "Harmonic Sensitivity (Performance)",
+      "textDescription": "<p>You’ve developed keen sensory organs that have an amazing sensitivity to sound—and you know how to put them to use. You become trained in Performance or gain the Assurance skill feat with Performance if your are already trained in that skill. In addition, you can accurately recall a melody or lyrics you’ve heard within the last week, granting you a +2 circumstance bonus to all Deception and Performance checks that involve mimicking speech or a specific sound.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Performance",
+          "effectType": 11,
+          "bonusAmount": 2
+        }
+      ]
+    },
+    {
+      "id": "eedc9be3-529f-4504-8891-fea17007ee96",
+      "name": "Electromagnetic Whiskers",
+      "level": 5,
+      "reqFeats": [
+        "518ef6b5-021c-478a-80bf-1cc955862c64"
+      ],
+      "textDescription": "<p><strong>Prerequisites </strong>Long Whiskered</p><br><hr><br><p>You have honed your whiskers’ sensitivity to the degree that you can sense the movement of the weak electric fields emitted by potential enemies. You gain electromagnetic sense as an imprecise sense out to 15 feet. Electromagnetic sense allows you to detect nearby living and technological creatures, but you may have to use the Seek action to find an undetected creature in an environment with too much electromagnetic radiation, such as inside the engine room of a spaceship or near a powerful source of radio waves.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "2e45f4d2-022b-4e98-87a3-8c350147fbc3",
+      "name": "Harmonic Sensitivity (Assurance)",
+      "textDescription": "<p>You’ve developed keen sensory organs that have an amazing sensitivity to sound—and you know how to put them to use. You become trained in Performance or gain the Assurance skill feat with Performance if your are already trained in that skill. In addition, you can accurately recall a melody or lyrics you’ve heard within the last week, granting you a +2 circumstance bonus to all Deception and Performance checks that involve mimicking speech or a specific sound.</p><p><b>Note:</b> You will need to set Performance as the Assurance skill manually.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "hashMapRequiredProficiences": {
+        "Performance": 2
+      },
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Assurance",
+          "reference": "583458fd-f51e-44d9-9f27-0566d3a18094"
+        }
+      ]
+    },
+    {
+      "id": "5248c105-c706-40b1-ae2b-e086c66070b7",
+      "name": "Dirge for the Fallen",
+      "level": 17,
+      "textDescription": "<p>You perform a mournful dirge tinged with supernatural grief that compels the dead to rise and the wounded to heal. You can cast the <em>resurrect </em>ritual once per year as the primary caster using Performance for the primary check.</p>",
+      "traits": "Uncommon, Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "9e12844b-2d7a-4bb2-b376-2cce09090826",
+      "name": "Competitive Spirit",
+      "action": 0,
+      "textDescription": "<p><strong>Frequency </strong>once per hour</p><br><p><strong>Trigger </strong>An ally attempts a skill check with a skill that you have trained or better proficiency rank in.</p><br><hr><br><p>You push yourself to be the best by competing with the triggering ally. Until the end of your next turn, you can attempt the same skill check to perform the same action or activity that the triggering ally performed. You gain a +2 circumstance bonus to this skill check. If you achieve at least one degree of success higher than the triggering ally, this use of Competitive Spirit doesn’t count toward its frequency. If you roll a critical failure on this skill check, you take a –1 circumstance penalty to all skill checks attempted with that skill for the next hour as you try new techniques to improve your future attempts.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "abbdb3d4-05c7-4e9c-8d95-f418bb45498a",
+      "name": "Pahtra Lore",
+      "textDescription": "<p>You gain the trained proficiency rank in Acrobatics and Performance. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also gain the Additional Lore general feat for Pahtra Lore.</p><p><strong><br><br>Note: </strong>You will have to manually input Pahtra Lore for Additional Lore.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "effectType": 11,
+          "bonusAmount": 2
+        },
+        {
+          "proficiencyName": "Performance",
+          "effectType": 11,
+          "bonusAmount": 2
+        },
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Additional Lore",
+          "reference": "db05e8bb-e3bf-448f-afd2-918e6ed83243"
+        }
+      ]
+    },
+    {
+      "id": "d3b8f5a3-0f76-4cca-aca3-313940ca2ba4",
+      "name": "Predatory",
+      "selectable": 2,
+      "textDescription": "<p>Battle is a dance, and you’ve honed your body into an instrument as exquisite as it is deadly. When you select this feat, you gain your choice of a claw unarmed attack or a jaws unarmed attack. Both of these attacks are in the brawling weapon group.</p><br><p>A claw unarmed attack deals 1d6 slashing damage and has the agile, finesse, pahtra, and unarmed traits.</p><br><p>A jaws unarmed attack deals 1d6 piercing damage and has the finesse, grapple, pahtra, and unarmed traits.</p><br><p>At 5th level, whenever you get a critical hit with one of these attacks, you get its critical specialization effect.</p><br><hr><br><p><strong>Special </strong>You can take this feat a second time. If you do, select the second attack from the options above.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "eddaac51-e421-4042-ad75-c6ea84237b98",
+      "name": "Battleblessed",
+      "level": 5,
+      "textDescription": "<p>You’re an accomplished battledancer and warrior, blessed by seers, honed by ancestral tradition, and capable of feats beyond the natural abilities of your peers. You gain <em>tailwind </em>as a 1st-rank primal innate spell that you can cast once per day.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Tailwind",
+          "effectType": 9,
+          "bonusType": 3,
+          "bonusAmount": 1
+        }
+      ]
+    },
+    {
+      "id": "6378f372-aa55-4912-b556-632b38060d9b",
+      "name": "Climbing Claws",
+      "level": 5,
+      "textDescription": "You can extend your claws to aid you in climbing. You gain a<br>climb Speed equal to your land Speed.",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "44b58967-7756-4d38-a846-40aac126ab27",
+      "name": "Attune to Nature's Song",
+      "level": 13,
+      "action": 1,
+      "textDescription": "<p><strong>Requirements </strong>You are outdoors in a natural, undeveloped environment.</p><br><hr><br><p>You open your senses to your surroundings, attuning to the underlying song of your environment and syncing your own body’s rhythm to its beat. For 1 minute, you ignore nonmagical difficult terrain and you treat non-magical greater difficult terrain in that area as difficult terrain. If you enter a different biome than you’re currently located in, or if you enter a building or other constructed structure, these benefits immediately end.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "PF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "306a32bb-e5d7-4aeb-a608-bb27678a885b",
+      "name": "Subvert World's Rhythm",
+      "level": 13,
+      "textDescription": "<p><strong>Prerequisites </strong>expert in Performance</p><br><hr><br><p>Whether through intense musical training, magical insight, or the goddess Meyel’s divine blessing, you can sense the rhythm of the world around you and tug on time’s chords to manipulate its melody and flow. You gain <em>haste </em>and <em>slow </em>as 3rd-rank primal innate spells. You can cast each of these spells once per day.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "hashMapRequiredProficiences": {
+        "Performance": 4
+      },
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Haste",
+          "effectType": 9,
+          "bonusType": 3,
+          "bonusAmount": 3
+        },
+        {
+          "proficiencyName": "Slow",
+          "effectType": 9,
+          "bonusType": 3,
+          "bonusAmount": 3
+        }
+      ]
+    },
+    {
+      "id": "214125dc-04c4-4397-85fd-af0400fc23f1",
+      "name": "Electromagnetic Mastery",
+      "level": 17,
+      "reqFeats": [
+        "eedc9be3-529f-4504-8891-fea17007ee96"
+      ],
+      "textDescription": "<p><strong>Prerequisites </strong>Electromagnetic Whiskers</p><br><hr><br><p>You have learned how to hone your whiskers to their maximum potential. Your electromagnetic sense becomes a precise sense with a range of 15 feet.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "e277ac41-edcc-43d8-965e-e491ebb0a2fb",
+      "name": "Focus Pheromones",
+      "level": 13,
+      "action": 1,
+      "textDescription": "<p><strong>Frequency </strong>once per hour</p><br><hr><br><p>You can purposefully deploy your pheromones to manipulate the reactions of those around you. If your next action is to attempt a Deception check to Create a Diversion, a Diplomacy check to Request, or an Intimidation check to Demoralize, roll that skill check twice and use the better result.</p>",
+      "traits": "Fortune, Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "a082b677-7197-481c-8436-af7df520e2a7",
+      "name": "Psychic Talent",
+      "textDescription": "<p>Your psychic abilities have developed beyond simple communication. Choose one cantrip from the occult spell list. You can cast this cantrip as an occult innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</p><br><p><strong>Note:</strong>&nbsp;There is no way to give you a cantrip of your choice within Custom Feats, so you will need to add it manually.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "3d45bbcb-b321-4fa2-ab58-7db5a4ca556e",
+      "name": "Psychic Mastery",
+      "level": 9,
+      "reqFeats": [
+        "a082b677-7197-481c-8436-af7df520e2a7"
+      ],
+      "textDescription": "<p>Your psychic abilities have grown stronger, allowing you to tap into entirely new dimensions of psychic power. Choose one common 2nd-rank spell from the occult spell list. You can cast that spell as an occult innate spell once per day.</p><br><p><strong>Note:</strong>&nbsp;Because Pathbuilder doesn't allow me to give you an innate spell of your choice, you will have to add it manually.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "0a9ddf04-3b5b-404b-ba2a-4f1da2b0b972",
+      "name": "Psychic Paragon",
+      "level": 17,
+      "reqFeats": [
+        "3d45bbcb-b321-4fa2-ab58-7db5a4ca556e"
+      ],
+      "textDescription": "<p><strong>Prerequisites&nbsp;</strong>Psychic Mastery</p><br><hr><br><p>Your psychic abilities have grown stronger. Choose one common 6th-rank spell from the occult spell list. You can cast that spell as an occult innate spell once per day.</p><br><p><strong>Note:</strong>&nbsp;Because Pathbuilder doesn't allow me to give you an innate spell of your choice, you will have to add it manually.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "7bf3c4ee-f5d1-4027-8b96-506318129d62",
+      "name": "Center Thoughts",
+      "action": -1,
+      "textDescription": "<p><strong>Frequency&nbsp;</strong>once per day</p><br><p><strong>Trigger</strong> You fail a Will saving throw against a mental effect.</p><br><hr><br><p>You center your thoughts and focus your mind, shaking off emotional turmoil and harmful mental intrusions. Reroll the triggering saving throw and use the better result.</p>",
+      "traits": "Concentrate, Fortune, Lashunta, Mental, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "6b5b1d30-7c63-45ef-8b4e-3bcd518223fd",
+      "name": "Telepathic Conduit",
+      "textDescription": "<p>When you use limited telepathy to communicate with another creature, you act as a conduit for their thoughts, allowing them to respond to you for a few scant moments—if they wish. The creature can give you a brief response as a reaction, or as a free action at the beginning of their next turn as long as they remain within range of your telepathy.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "42faadb5-85bb-446d-b2d9-656e56f8bfd0",
+      "name": "Alluring Pheromones",
+      "textDescription": "<p>You can leverage your alluring pheromones to influence others, even when you lack other means of communication. You can use Diplomacy to Make an Impression on creatures with whom you don’t share a language, and to make simple Requests of them. This could include getting directions or getting the target to pick a specific individual out from a crowd. When you do, Make an Impression and Request lose the linguistic trait and gain the olfactory trait.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "d17b93cb-8113-4bf8-b628-0992e4f15136",
+      "name": "Psychic Scholar",
+      "level": 5,
+      "reqFeats": [
+        "f0f5d2c5-dd8d-4768-a7b0-a2f0bf0ef454||4e4a7bde-d209-4b74-9620-9e271ccb769a"
+      ],
+      "textDescription": "<p><strong>Prerequisites</strong>damaya or unbound heritage</p><br><hr><br><p>You can transfer vast amounts of information to the minds of others in mere moments. You can cast <em>mindlink </em>as a 1st-rank occult innate spell twice per day.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Mindlink",
+          "effectType": 9,
+          "bonusType": 2,
+          "bonusAmount": 1
+        }
+      ]
+    },
+    {
+      "id": "dd7d1267-a37c-477c-8930-9b70a6c979d3",
+      "name": "Mental Deflection",
+      "level": 17,
+      "action": 0,
+      "textDescription": "<p><strong>Prerequisites </strong>expert in Occultism, a pool of Focus Points <br><strong>Trigger </strong>A creature Casts a Spell with the mental trait. <br><strong>Requirements </strong>You have at least 1 Focus Point.</p><br><hr><br><p>When a foe Casts a Spell that has the mental trait and you can see or otherwise detect its manifestations, you can use your psychic powers to disrupt it. You expend 1 Focus Point to counter the triggering creature’s casting of the spell. You then attempt to counteract the triggering spell using your spellcasting counteract modifier.</p>",
+      "traits": "Lashunta, Mental, 3rd Party",
+      "src": "SF2E Playtest",
+      "hashMapRequiredProficiences": {
+        "Occultism": 4
+      },
+      "databaseID": 1
+    },
+    {
+      "id": "febdd087-1149-43bf-abb9-2e0d1d05133f",
+      "name": "Canny Explorer",
+      "textDescription": "<p><strong>Prerequisites </strong>trained in Nature or Survival</p><br><hr><br><p>You’re accustomed to surviving natural hazards and confrontations with aggressive predators. You gain a +1 circumstance bonus to Nature checks to Command an Animal, to Perception checks to detect environmental hazards, and to Survival checks to disable environmental hazards.</p><br><p>If you have another ability that allows you to do so, you gain a +1 circumstance bonus to Diplomacy checks to Make an Impression on animals and to make Requests of animals.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "hashMapRequiredProficiences": {
+        "Nature||Survival": 2
+      },
+      "databaseID": 1
+    },
+    {
+      "id": "8d10ca4d-d6d5-42d2-af92-068ec9dd7eee",
+      "name": "Commanding Pheromones",
+      "textDescription": "<p>You can leverage your commanding pheromones to soothe ill will and take the edge off your threats, turning your attempts at coercion into acts of leadership. When you Coerce a creature, if your target would become unfriendly (and they aren’t already unfriendly or hostile), they become indifferent instead.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "5cc1bfa9-08a3-4841-9783-794462e7cdf7",
+      "name": "Distant Telepath",
+      "selectable": 5,
+      "textDescription": "<p><strong>Prerequisites </strong>limited telepathy</p><br><hr><br><p>Whether through training or innate talent, you’ve expanded the range at which you can telepathically communicate. Increase the range of your limited telepathy by 15 feet.</p><br><hr><br><p><strong>Special </strong>You can select this feat more than once.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "ee7d0311-254d-471e-98b4-a3036f38cfc2",
+      "name": "Lashunta Lore",
+      "textDescription": "<p>You become trained in Occultism and Society. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also gain the Additional Lore general feat for Lashunta Lore.</p><br><p><strong>Note:&nbsp;</strong>You will need to enter Lashunta Lore manually for Additional Lore.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Occultism",
+          "effectType": 11,
+          "bonusAmount": 2
+        },
+        {
+          "proficiencyName": "Society",
+          "effectType": 11,
+          "bonusAmount": 2
+        },
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Additional Lore",
+          "reference": "7b1b07dd-dd8d-41e2-9e62-1296dd736f79"
+        }
+      ]
+    },
+    {
+      "id": "30646462-3ebf-490f-aab7-116c66582741",
+      "name": "Psychic Bully",
+      "level": 5,
+      "reqFeats": [
+        "f7e207eb-48b6-43fb-979e-c4e0d8186a99||4e4a7bde-d209-4b74-9620-9e271ccb769a"
+      ],
+      "textDescription": "<p><strong>Prerequisites</strong>korasha or unbound heritage</p><br><hr><br><p>You can leverage your telepathic abilities to influence the minds of others, imparting orders or inflaming fears. You can cast <em>command </em>and <em>fear </em>as 1st-rank occult innate spells. You can cast each of these occult innate spells once per day</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Command",
+          "effectType": 9,
+          "bonusType": 2,
+          "bonusAmount": 1
+        },
+        {
+          "proficiencyName": "Fear",
+          "effectType": 9,
+          "bonusType": 2,
+          "bonusAmount": 1
+        }
+      ]
+    },
+    {
+      "id": "ccecc0d2-fe12-4180-94cd-4660a2ea0241",
+      "name": "Sensitive Antennae",
+      "level": 5,
+      "textDescription": "<p>Your antennae are covered in fine hairs, making them more sensitive to psychic vibrations than most. You gain thoughtsense as a vague sense with a range of 30 feet. This means you can use your antennae to determine if a creature is within range. Your thoughtsense detects only thinking&nbsp;creatures, so a creature that is unthinking or otherwise immune to mental effects can’t be perceived using your thoughtsense. This does not give you the ability to read or understand their thoughts.</p><br><p>At 9th level, this becomes an imprecise sense.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "aa93d2ff-bdac-40d7-beea-dc77f5422397",
+      "name": "Thought-Bonded Companion",
+      "level": 5,
+      "textDescription": "<p><strong>Prerequisites </strong>You have an animal companion.</p><br><p>You forge a telepathic bond with your animal companion (Pathfinder Player Core 206), allowing you to sense its emotions and presence. Your animal companion can empathically communicate with you, as long as it’s within 1 mile of you, sharing emotions. Additionally, as long as your animal companion is within 100 feet of you, you know its location and it knows your location. This doesn’t give either of you knowledge of one another’s surroundings.</p>",
+      "traits": "Lashunta, Mental, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "cc0002ae-8781-4936-bb90-a4977fb6a9df",
+      "name": "Guarded Thoughts",
+      "level": 9,
+      "textDescription": "<p>Your psychic training allows you to block attempts to read your thoughts and ward off mental intrusion. Any effect that specifically attempts to read your mind to glean information must succeed at a counteract check against the higher of your class DC or your spell DC to do so successfully; otherwise, it gains no information. The counteract level is equal to half your level rounded up.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "58c90275-f0c1-480c-b9d7-32f7ac8bddd8",
+      "name": "Merge Senses",
+      "level": 9,
+      "reqFeats": [
+        "aa93d2ff-bdac-40d7-beea-dc77f5422397"
+      ],
+      "textDescription": "<p><strong>Frequency</strong>once per hour</p><br><p><strong>Prerequisites </strong>Thought-Bonded Companion</p><br><hr><br><p>Your telepathic connection with your animal companion improves, enabling you to experience the world as one. You project your senses into your animal companion. When you do, you lose all sensory information from your own body, but can sense through your familiar’s body for up to 1 minute. You can Dismiss this effect.</p>",
+      "traits": "Concentrate, Lashunta, Mental, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "0894863b-bf16-4e1a-8c5f-1f089835a159",
+      "name": "Hypersensitive Antennae",
+      "level": 13,
+      "textDescription": "<p><strong>Prerequisites </strong>Sensitive Antennae</p><br><hr><br><p>Your antennae become far more sensitive, enabling you to better pinpoint the location of thinking creatures. Your thoughtsense becomes a precise sense.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "db255820-4534-46e8-a2b4-9f6a5f492cb5",
+      "name": "Psychic Investigator",
+      "level": 13,
+      "reqFeats": [
+        "30646462-3ebf-490f-aab7-116c66582741||d17b93cb-8113-4bf8-b628-0992e4f15136||a082b677-7197-481c-8436-af7df520e2a7"
+      ],
+      "textDescription": "<p><strong>Prerequisites </strong>Psychic Bully, Psychic Scholar, or Psychic Talent</p><br><hr><br><p>You can use your telepathic abilities to quickly assess your circumstances or subtly glean information from the minds of others. You can cast <em>hypercognition </em>and <em>mind reading </em>as 3rd-rank occult innate spells. You can cast each of these occult innate spells once per day.</p>",
+      "traits": "Uncommon, Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Hypercognition",
+          "effectType": 9,
+          "bonusType": 2,
+          "bonusAmount": 3
+        },
+        {
+          "proficiencyName": "Mind Reading",
+          "effectType": 9,
+          "bonusType": 2,
+          "bonusAmount": 3
+        }
+      ]
+    },
+    {
+      "id": "190bfe03-19af-472e-9722-48e3be95ef03",
+      "name": "Centered Mind",
+      "level": 17,
+      "reqFeats": [
+        "7bf3c4ee-f5d1-4027-8b96-506318129d62"
+      ],
+      "textDescription": "<p><strong>Prerequisites </strong>Center Thoughts</p><br><hr><br><p>You know your own mind and instinctively resist attempts to unbalance your thoughts or control your emotions. You can use Center Thoughts once per hour, rather than once per day.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "b1ab1ec2-8e85-4ede-973c-e2f9380762be",
+      "name": "Reliable Grace",
+      "level": 17,
+      "reqFeats": [
+        "3bd51203-b8e6-4fc4-a605-79b775dd9784"
+      ],
+      "textDescription": "<p><strong>Prerequisites</strong>Natural Grace</p><br><hr><br><p>You have exceptional control over your body. You can use Natural Grace once per hour, rather than once per day.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "3bd51203-b8e6-4fc4-a605-79b775dd9784",
+      "name": "Natural Grace",
+      "action": -1,
+      "textDescription": "<p><strong>Frequency </strong>once per day</p><br><p><strong>Trigger </strong>You fail an Acrobatics check or Reflex saving throw.</p><br><hr><br><p>You have almost supernatural control of your movements which can sometimes save you in dangerous situations. You can reroll the triggering skill check or saving throw, using the second result even if it’s worse.</p>",
+      "traits": "Kasatha, Fortune, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724832367150"
+    },
+    {
+      "id": "037c1ac0-ff31-4fe2-9b71-64dafa2c677d",
+      "name": "Disciple of the Cycle",
+      "level": 13,
+      "textDescription": "<p>While it pales in comparison to the powers of a true solarian, you’re a devoted disciple of the Cycle and can temporarily manifest control over the powers of the cosmos. You gain <em>flashfire </em>and <em>gravity tether </em>as 3rd-rank occult innate spells. You can cast each of these occult innate spells once per day.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "proficiencyName": "0b598c31-017e-4b4f-9318-012e791b4e4d",
+          "effectType": 9,
+          "bonusAmount": 3
+        },
+        {
+          "proficiencyName": "fb1878e2-8350-408e-8e80-037c9900a860",
+          "effectType": 9,
+          "bonusType": 3,
+          "bonusAmount": 3
+        }
+      ]
+    },
+    {
+      "id": "11ef0f5a-0982-4139-a39c-d7c816b371a5",
+      "name": "Meditative Recovery",
+      "level": 9,
+      "textDescription": "<p><strong>Frequency </strong>once per day</p><br><hr><br><p>You find that meditation soothes your body and mind. You rest for 10 minutes to enter a state of deep meditation, causing you to regain a number of Hit Points equal to your level. For the following 10 minutes, you gain a +1 circumstance bonus to saving throws against mental effects.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724833496512"
+    },
+    {
+      "id": "fc9d7a94-acac-4bad-a2eb-2fec32571d59",
+      "name": "Perfectly Balanced",
+      "level": 13,
+      "textDescription": "<p>You have come closer to finding balance between two extremes of energy, learning how to expel or draw in excess heat when necessary. You gain resistance 5 to cold and fire. Additionally, you gain the Redirect Energy reaction.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playlist",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "effectType": 13,
+          "string0": "30f681af-68bd-48b7-a933-b3ad181b6385",
+          "int0": 1
+        }
+      ]
+    },
+    {
+      "id": "2935cead-5334-499d-a88f-a2c68dd21c7c",
+      "name": "Devoted Defender",
+      "level": 13,
+      "textDescription": "<p>You’ve learned to protect your allies from harm in the heat of battle, rather than simply yourself. Whenever you Raise a Shield or position a weapon with the parry trait defensively to increase your AC, you can select one adjacent ally. As long as the selected ally remains adjacent to you, they gain the same circumstance bonus to AC from your shield or weapon as you do. These benefits last until the start of your next turn. If you have the Shield Block feat, during this time you can trigger Shield Block when you have your shield raised and the selected ally would take damage from a physical attack, in addition to Shield Block’s usual trigger.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724833727873"
+    },
+    {
+      "id": "356d3809-cc3b-4a48-922e-914cf6abad6e",
+      "name": "Double Draw",
+      "level": 5,
+      "action": 1,
+      "textDescription": "<p>You Interact twice to draw and stow one object from up to two of your pairs of arms. If you stow an object with this action, you can also draw an object with that set of arms as normal.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "Custom",
+      "databaseID": 1,
+      "timestamp": "1724832509742"
+    },
+    {
+      "id": "5f5ab7fa-3a2e-4c42-a3cf-9ccfc0f42274",
+      "name": "Broken Cycle",
+      "level": 5,
+      "action": 1,
+      "textDescription": "<p><strong>Prerequisites </strong>spellcasting class feature Frequency once every 10 minutes</p><br><hr><br><p>You’ve developed an understanding of the greater nature of the Cycle using traditional Kasathan philosophy and can apply it to your spellcasting. The next spell you Cast this round that deals fire damage instead deals cold damage, or if the spell deals cold damage, it instead deals fire damage. Change the trait of the spell from cold or fire and vice versa as appropriate. For the next minute you gain resistance 5 to cold or fire, matching the damage of the spell you cast. This has no effect on spells that deal both fire and cold damage.</p>",
+      "traits": "Concentrate, Kasatha, Spellshape, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724832455957"
+    },
+    {
+      "id": "03c43c0c-a04a-498b-a707-03899c0ce060",
+      "name": "Masked",
+      "level": 5,
+      "textDescription": "<p>Your masked face prevents others from scrutinizing your appearance, and you’ve learned to leverage this uncertainty to your advantage in social situations. While your mouth is covered, increase the DC of any Perception check made to Sense Motive against you by 2. You gain a +1 circumstance bonus to Lie, make a Request, or Make an Impression.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724832881767"
+    },
+    {
+      "id": "8875f12c-ac9f-472f-967d-310b1438a1ca",
+      "name": "All Hands on Deck",
+      "level": 9,
+      "action": -1,
+      "textDescription": "<p><strong>Frequency </strong>once per day</p><br><hr><br><p>You're able to focus on your coordination for a brief moment. Until the beginning of your next turn, you count one additional pair of hands as your active hands. At the beginning of your next turn, choose which set of active hands remains your active hands.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724832951613"
+    },
+    {
+      "id": "436924e9-445b-4167-a670-3396a4030cb0",
+      "name": "Calm Before the Storm",
+      "textDescription": "You maintain a calm demeanor even when facing mortal peril.<br>At the end of your turn, reduce your frightened condition by<br>2 instead of 1.<br>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724826989584"
+    },
+    {
+      "id": "611f00ec-adcb-4916-b029-e9a114be0e00",
+      "name": "History Buff",
+      "level": 9,
+      "reqFeats": [
+        "f2d52830-d1cd-4119-b4d3-524a3642162f"
+      ],
+      "textDescription": "<p><strong>Prerequisites </strong>Historian</p><br><hr><br><p>You have cataloged countless customs, histories, and traditions. You can cast <em>hypercognition </em>once per day as a 3rd-rank occult innate spell. You can use your modifier for the Lore skill you chose for Historian in place of any other skill modifier when making a Recall Knowledge check while casting <em>hypercognition</em>.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724833414915",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Hypercognition",
+          "effectType": 9,
+          "bonusType": 2,
+          "bonusAmount": 3
+        }
+      ]
+    },
+    {
+      "id": "8328512d-9bac-422f-93c4-bf6106cb2cf9",
+      "name": "Kasatha Lore",
+      "textDescription": "<p>You become trained in Diplomacy and Society. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice.</p><br><p>You also gain the Additional Lore general feat for&nbsp;Kasatha Lore.</p><p><b>Note: You will have to manually input Kasatha Lore for Additional Lore.</b></p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724827166089",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Diplomacy",
+          "effectType": 11,
+          "bonusAmount": 2
+        },
+        {
+          "proficiencyName": "Society",
+          "effectType": 11,
+          "bonusAmount": 2
+        },
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Additional Lore",
+          "reference": "de6cc1cd-7b61-45dd-b34a-c6562475a5bb"
+        }
+      ]
+    },
+    {
+      "id": "b31c7691-914a-4b44-8306-016c09293b16",
+      "name": "Uncanny Awareness",
+      "level": 9,
+      "textDescription": "<p>You’re in tune with your surroundings and can instinctively sense when danger is near. You gain a +2 circumstance bonus to Perception checks made as initiative rolls. If your initiative roll result is tied with that of an opponent, you go first, regardless of whether you rolled Perception or not. The first time each day that you roll Perception for initiative, you roll&nbsp;initiative twice and use the higher result.</p><p><b>Note:</b> Remember to remove the +2 bonus if you are rolling a different skill than Perception for initiative.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724833679467",
+      "listCustomEffects": [
+        {
+          "effectType": 20,
+          "bonusType": 2,
+          "bonusAmount": 2
+        }
+      ]
+    },
+    {
+      "id": "c505a2d1-b250-43a8-b864-e2a8f4bfb746",
+      "name": "Kasatha Weapon Elegance",
+      "level": 5,
+      "textDescription": "<p>You’ve learned how to adapt your martial expertise to wield other weapons. When wielding a weapon you aren’t proficient with, treat your level as your proficiency bonus.</p><br><p>At 11th level, you become trained in all weapons.</p><p><b>Note: You will need to set proficiency bonuses and weapon training manually.</b></p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724832831990"
+    },
+    {
+      "id": "cc9bf455-6e80-46d1-b76c-78b772dd95f9",
+      "name": "Loping Grace",
+      "textDescription": "You have endured difficult land journeys and move with an<br>impressive pace. Your Speed increases by 5 feet.",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724832311872",
+      "listCustomEffects": [
+        {
+          "effectType": 1,
+          "bonusType": 3,
+          "bonusAmount": 5
+        }
+      ]
+    },
+    {
+      "id": "e73376c8-e000-4414-8420-14afde03ac3d",
+      "name": "Crew Member",
+      "action": 0,
+      "textDescription": "<p><strong>Trigger </strong>An ally within 30 feet attempts to Aid and rolls a failure.</p><br><hr><br><p>You are always able to help in a pinch. Attempt a skill check or attack roll of the same type attempted by your ally and replace the result of the failed Aid with your result, even if you did not prepare to help.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724827044185"
+    },
+    {
+      "id": "f2d52830-d1cd-4119-b4d3-524a3642162f",
+      "name": "Historian",
+      "level": 5,
+      "textDescription": "<p>You become trained in a Lore skill of your choice. You can spend 10 minutes checking your notes or research materials to Recall Knowledge about a piece of history with any Lore&nbsp;skill in which you are not trained, using your highest Lore modifier instead of your modifier with that skill.</p><br><p><strong>Note:&nbsp;</strong>You'll need to manually set the Lore proficiency.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724832633759"
+    },
+    {
+      "id": "d17f50a2-702a-4a8a-8c20-27788750c645",
+      "name": "Cleanse Spirit",
+      "level": 17,
+      "textDescription": "<p>Through your knowledge of traditional kasathan healing rituals and meditative practices, you’ve learned to cleanse the body and mind of the ill or troubled. You gain <em>cleanse affliction </em>and <em>sound body </em>as 4th-rank occult innate spells. You can cast each of these occult innate spells once per day.</p><p><b>Note:</b> These spells are 2nd rank in the Pathfinder 2E occult spell list. I'm not sure if this is an intentional re-ranking for this ability or if it was an oversight.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Cleanse Affliction",
+          "effectType": 9,
+          "bonusType": 2,
+          "bonusAmount": 2
+        },
+        {
+          "proficiencyName": "Sound Body",
+          "effectType": 9,
+          "bonusType": 2,
+          "bonusAmount": 2
+        }
+      ]
+    },
+    {
+      "id": "891b2b85-adf0-401a-8501-a6e7e7a7563d",
+      "name": "Kasathan Weapon Familiarity",
+      "textDescription": "<p>Your people have instilled in you a respect for melee combat, and you’ve trained to wield a few more elegant examples in battle. You gain access to all uncommon weapons with the kasatha trait. You have familiarity with weapons with the kasatha trait plus the dueling sword, plasma sword, shock truncheon, and singing spear—for the purposes of proficiency, you treat any of these that are martial weapons as simple weapons and any that are advanced weapons as martial weapons.</p><br><p>At 5th level, whenever you get a critical hit with one of these weapons, you get its critical specialization effect.</p><p><b>Note:</b></p><b> You will need to add the proficiencies manually.<p></p></b>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724827272035",
+      "listCustomEffects": [
+        {
+          "effectType": 16,
+          "string0": "dueling sword,plasma sword,shock truncheon,singing spear",
+          "string1": "kasatha"
+        }
+      ]
+    },
+    {
+      "id": "1867ca86-9134-4961-8e9b-95f55c8bf8a1",
+      "name": "Tentacle Whip",
+      "textDescription": "<p>You grow a tentacle that can lash out like a whip. You gain a tentacle unarmed attack that deals 1d6 bludgeoning damage. Your tentacle is in the brawling weapon group and has the barathu, finesse, reach, and unarmed traits.</p><p><b>Note: Remember to add the Barathu Tentacle Whip to your character from the Weapons tab.</b></p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724817432969"
+    },
+    {
+      "id": "26ee81d7-b82a-4ea3-b7ab-16dcc2935cc9",
+      "name": "Molecular Modification: Slashing",
+      "level": 5,
+      "textDescription": "<p>You modify your body to resist a certain type of damage. You gain resistance to acid, bludgeoning, cold, electricity, fire, piercing, poison, slashing, or sonic&nbsp;damage equal to half your level.</p><br><hr><br><p><strong>Special</strong>You can take this feat multiple times. Each time you do so, select a different damage type.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724818715871",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Slashing",
+          "effectType": 12,
+          "bonusType": 1
+        }
+      ]
+    },
+    {
+      "id": "7de96b28-34ea-4cb8-a0c9-500e1cd006c6",
+      "name": "Fluid Anatomy",
+      "level": 5,
+      "action": 0,
+      "textDescription": "Frequency once per hour<br><br>Trigger An enemy’s Strike against you is a critical hit.<br><br>Your anatomy instantly shifts to redistribute damage away from vital areas. The triggering attack deals only the damage it would deal on a hit (typically normal damage instead of double damage). Any other effects of the attack caused by a critical hit still occur, such as critical specializations. Until the beginning of your next turn, you’re off-guard against the triggering enemy.",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724817828538"
+    },
+    {
+      "id": "5b7189b6-3c73-4a63-bf20-506ea3652b4a",
+      "name": "Convergent Evolution",
+      "level": 9,
+      "textDescription": "<p>You sample the genetic code of creatures and people you contact and mimic them. When you take this feat, select up to three different ancestries with which you have had significant contact. You can select ancestry feats from the ancestries you chose, in addition to barathu ancestry feats. Additionally, you gain one ancestry feat you qualify for of 5th level or lower, from one of the selected ancestries. You can retrain the selected feat once per day during your daily preparations.</p><br><p><strong>Note:&nbsp;</strong>You'll have to note the&nbsp;other ancestries' feats chosen manually because I don't know if it's even possible to force Pathbuilder to let you take other ancestries' feats.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724823841597"
+    },
+    {
+      "id": "2a9960ec-8b7a-43c0-b518-1d554731bceb",
+      "name": "Molecular Modification: Electricity",
+      "level": 5,
+      "textDescription": "<p>You modify your body to resist a certain type of damage. You gain resistance to acid, bludgeoning, cold, electricity, fire, piercing, poison, slashing, or sonic&nbsp;damage equal to half your level.</p><br><hr><br><p><strong>Special</strong>You can take this feat multiple times. Each time you do so, select a different damage type.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724818646225",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Electricity",
+          "effectType": 12,
+          "bonusType": 1
+        }
+      ]
+    },
+    {
+      "id": "dd8bf02c-9bff-4875-a732-d11fe178b844",
+      "name": "Molecular Modification: Sonic",
+      "level": 5,
+      "textDescription": "<p>You modify your body to resist a certain type of damage. You gain resistance to acid, bludgeoning, cold, electricity, fire, piercing, poison, slashing, or sonic&nbsp;damage equal to half your level.</p><br><hr><br><p><strong>Special</strong>You can take this feat multiple times. Each time you do so, select a different damage type.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724818727496",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Sonic",
+          "effectType": 12,
+          "bonusType": 1
+        }
+      ]
+    },
+    {
+      "id": "b6702d7e-e0b7-4287-a3c2-695001c66b7a",
+      "name": "Molecular Modification: Bludgeoning",
+      "level": 5,
+      "textDescription": "<p>You modify your body to resist a certain type of damage. You gain resistance to acid, bludgeoning, cold, electricity, fire, piercing, poison, slashing, or sonic&nbsp;damage equal to half your level.</p><br><hr><br><p><strong>Special</strong>You can take this feat multiple times. Each time you do so, select a different damage type.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724818608613",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Bludgeoning",
+          "effectType": 12,
+          "bonusType": 1
+        }
+      ]
+    },
+    {
+      "id": "29b3367b-e33c-4043-9ceb-415cf1e3dd75",
+      "name": "Collective Connection",
+      "level": 5,
+      "action": 1,
+      "reqFeats": [
+        "0b4b72df-a9f4-4c04-adee-f440bfd8f4fc"
+      ],
+      "textDescription": "<p><strong>Prerequisites</strong>merged heritage</p><br><p><strong>Frequency </strong>once per hour</p><br><hr><br><p>You can tap into one of your merged minds to better focus. If your next action is to Recall Knowledge, roll the Recall Knowledge check twice and use the better result.</p>",
+      "traits": "Barathu, Fortune, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724817839439"
+    },
+    {
+      "id": "5f171bc2-1dd6-4122-af7d-dc81ee3960f7",
+      "name": "Internal Chemistry",
+      "textDescription": "<p>You tweak your anatomy and bodily systems to metabolize pharmaceuticals more efficiently. Consumable items that have the healing trait and restore Hit Points to you restore an additional number of Hit Points to you equal to half your level.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724824517073"
+    },
+    {
+      "id": "69f2e5af-eafc-4839-b4e5-f88bd6606c2b",
+      "name": "Dermal Spikes",
+      "textDescription": "<p>Spiky protrusions jut from your body, which you can use to<br>wound your attackers. Your Fortitude DC against Athletics<br>checks to Grapple or Shove you increases by 1. Additionally,<br>you gain the Piercing Spikes reaction.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724816669794",
+      "listCustomEffects": [
+        {
+          "effectType": 13,
+          "string0": "6c0c01cb-5f72-43eb-a0c8-bb85dfc68c7f",
+          "int0": 1
+        }
+      ]
+    },
+    {
+      "id": "fb53ab2f-d439-47b4-939d-dcdbe8cb7586",
+      "name": "Expansive Verse",
+      "level": 9,
+      "reqFeats": [
+        "161100a1-719d-4242-9097-0d3078065926"
+      ],
+      "textDescription": "<p><strong>Prerequisites&nbsp;</strong>dreamer heritage</p><br><hr><br><p>Your songs become more complex and tinged with greater magic. Each day during your daily preparations, you can choose one common 2nd-rank spell from the occult spell list. You can cast this spell as an occult innate spell once before your next daily preparations.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724823931582"
+    },
+    {
+      "id": "52b567a1-0697-4829-9e25-157eb58a86b3",
+      "name": "Molecular Modification: Fire",
+      "level": 5,
+      "textDescription": "<p>You modify your body to resist a certain type of damage. You gain resistance to acid, bludgeoning, cold, electricity, fire, piercing, poison, slashing, or sonic&nbsp;damage equal to half your level.</p><br><hr><br><p><strong>Special</strong>You can take this feat multiple times. Each time you do so, select a different damage type.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724818660872",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Fire",
+          "effectType": 12,
+          "bonusType": 1
+        }
+      ]
+    },
+    {
+      "id": "eeabc742-acea-4987-be1f-db4884e4c02d",
+      "name": "Plentiful Adaptation",
+      "level": 9,
+      "reqFeats": [
+        "d4e07c53-e1c0-4010-93f8-2daf3e9b2414"
+      ],
+      "textDescription": "<p><strong>Prerequisites </strong>Adaptive* Limbs</p><br><hr><br><p>You can transform your limbs more often. The frequency of Adaptive Locomotion becomes at will.</p><br><p><strong>*</strong>Playtest document's typo. Should be \"Adaptable.\"</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724824299223"
+    },
+    {
+      "id": "0a3cfa21-897d-4c21-84fc-2d5b99a252df",
+      "name": "Molecular Modification: Piercing",
+      "level": 5,
+      "textDescription": "<p>You modify your body to resist a certain type of damage. You gain resistance to acid, bludgeoning, cold, electricity, fire, piercing, poison, slashing, or sonic&nbsp;damage equal to half your level.</p><br><hr><br><p><strong>Special</strong>You can take this feat multiple times. Each time you do so, select a different damage type.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724818686565",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Piercing",
+          "effectType": 12,
+          "bonusType": 1
+        }
+      ]
+    },
+    {
+      "id": "c4f7cb9a-8211-4bc5-872e-c46232e8adca",
+      "name": "Manifold Evolution",
+      "level": 17,
+      "textDescription": "<p><strong>Prerequisites </strong>Convergent Evolution</p><br><hr><br><p>You’ve cataloged genetic code from countless ancestries and can draw upon any of them to enhance and evolve your body. Increase the number of ancestries you can select with Convergent Evolution to six. You gain two additional ancestry feats you qualify for of 17th level or lower, chosen from among the ancestries selected with Convergent Evolution. You can retrain one or both of these selected feats once per day during your daily preparations.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724824956399"
+    },
+    {
+      "id": "0f548e38-c783-44a3-aa2d-2e94414cf809",
+      "name": "Metabolic Manipulation",
+      "textDescription": "<p>Through careful experimentation and selective adaptation, you’ve manipulated your immune system and internal chemistry, enabling you to better fight off illness and infection. You gain the Fast Recovery skill feat and the Targeted Immunization action.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724816974921",
+      "listCustomEffects": [
+        {
+          "effectType": 13,
+          "string0": "e7483fdd-f897-4629-996f-61db3bdc06d0",
+          "int0": 1
+        }
+      ]
+    },
+    {
+      "id": "59d3eece-bd14-4ba8-a83e-3d70039c9f5e",
+      "name": "Combine",
+      "level": 17,
+      "action": 2,
+      "textDescription": "p&gt;<strong>Frequency&nbsp;</strong>once per day<p></p><br><hr><br><p>You temporarily merge your body with that of an adjacent willing creature, overlaying yourself atop them to better shield them from harm. This transformation lasts for 10 minutes. You can Dismiss this effect. When you do, you emerge in a space adjacent to the target you were merged with.</p><br><p>While combined, you and your target each take your own turns as normal and must be targeted separately for purposes of abilities and other effects. Additionally, you and your target gain the following benefits.</p><br><ul><br><li>If the target is Medium or smaller, their size increases to&nbsp;Large and their reach increases to 10 feet.</li><br><li><br><p>You occupy the target’s space. If the target moves, you&nbsp;move with them, so that you always occupy their space.&nbsp;You can’t take actions with the move trait.</p><br></li><br><li>For each Speed you possess, compare it to that of your&nbsp;target. If your Speed is faster, or they lack that Speed,&nbsp;they gain your Speed.</li><br><li>Your body shields the target from harm, granting them&nbsp;greater cover, though you do not gain cover. Your body&nbsp;doesn’t obscure their vision or block line of sight.</li><br></ul>",
+      "traits": "Barathu, Manipulate, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724824876934"
+    },
+    {
+      "id": "6cbb87b0-1305-4e68-988a-7db4dbe63cb2",
+      "name": "Molecular Modification: Poison",
+      "level": 5,
+      "textDescription": "<p>You modify your body to resist a certain type of damage. You gain resistance to acid, bludgeoning, cold, electricity, fire, piercing, poison, slashing, or sonic&nbsp;damage equal to half your level.</p><br><hr><br><p><strong>Special</strong>You can take this feat multiple times. Each time you do so, select a different damage type.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724818699431",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Poison",
+          "effectType": 12,
+          "bonusType": 1
+        }
+      ]
+    },
+    {
+      "id": "6cc235c7-a142-4e8d-beef-cd1589f89b9e",
+      "name": "Vent Gas",
+      "level": 5,
+      "action": 1,
+      "textDescription": "<p><strong>Frequency </strong>once per hour</p><br><hr><br><p>You vent gas from sacs inside your body to propel you forward. The area you currently occupy, plus all squares in a 5-foot emanation, become filled with your vented gas. All creatures in the gas become concealed, and all creatures outside the gas become concealed to creatures within it. This gas disperses at the beginning of your next turn.</p><br><p>You gain a +10-foot circumstance bonus to all your Speeds. Then you either Stride or Fly. At the end of your turn, your gas reserves are depleted, and the bonus to your Speeds ends.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724823476743"
+    },
+    {
+      "id": "755bd31b-8529-49dd-b8ac-f98d327d5e6d",
+      "name": "Molecular Modification: Acid",
+      "level": 5,
+      "textDescription": "<p>You modify your body to resist a certain type of damage. You gain resistance to acid, bludgeoning, cold, electricity, fire, piercing, poison, slashing, or sonic&nbsp;damage equal to half your level.</p><br><hr><br><p><strong>Special</strong>You can take this feat multiple times. Each time you do so, select a different damage type.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724818039262",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Acid",
+          "effectType": 12,
+          "bonusType": 1
+        }
+      ]
+    },
+    {
+      "id": "81b4ed4e-f8e7-4462-8a84-7d000dc36273",
+      "name": "Plentiful Synthesis",
+      "level": 13,
+      "reqFeats": [
+        "dced1002-c877-4f9f-afca-f4c5199d8717"
+      ],
+      "textDescription": "<p><strong>Prerequisites&nbsp;</strong>Synthesize Medicinal</p><br><hr><br><p>Your body can create and metabolize remedies regularly. The frequency of Synthesize Medicinal increases to once per hour, rather than once per day.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724824671295"
+    },
+    {
+      "id": "bb17bac0-cd5d-4c9a-8d30-74bfc2dff941",
+      "name": "Molecular Modification: Cold",
+      "level": 5,
+      "textDescription": "<p>You modify your body to resist a certain type of damage. You gain resistance to acid, bludgeoning, cold, electricity, fire, piercing, poison, slashing, or sonic&nbsp;damage equal to half your level.</p><br><hr><br><p><strong>Special</strong>You can take this feat multiple times. Each time you do so, select a different damage type.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724818627057",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Cold",
+          "effectType": 12,
+          "bonusType": 1
+        }
+      ]
+    },
+    {
+      "id": "d4e07c53-e1c0-4010-93f8-2daf3e9b2414",
+      "name": "Adaptable Limbs",
+      "textDescription": "<p>You grow sturdy lower limbs that allow you to walk on land. Increase* your Speed to 20 feet. Additionally, you gain the Adaptive Locomotion action.<br><br><strong>*</strong>This is not a typo by me; this is what the playtest document says. If I had to guess, an earlier iteration of the barathu probably had a very slow Speed, usually made moot by its Fly speed, and the feat was not updated when the final playtest document was released. Consult&nbsp;your GM if you would like to take this feat.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724824199993",
+      "listCustomEffects": [
+        {
+          "effectType": 13,
+          "string0": "d0e29123-a86f-4c2e-a032-97ffe6eaa13d",
+          "int0": 0
+        }
+      ]
+    },
+    {
+      "id": "e61ba10b-5a80-4667-8bb0-2a1337545b66",
+      "name": "Grasping Tendrils",
+      "selectable": 5,
+      "textDescription": "<p>You’ve adapted more of your tendrils and limbs with complex musculature and cellular structure, improving articulation and fine motor skills. Increase your number of arms by two. At any time, one pair of your hands is designated as your active hands. You can change this designation from one pair of hands to another by taking the Switch Active Hands action, which is a single action. You can only perform actions with your active hands. For more information on playing characters with more than two hands, see page 172.</p><br><hr><br><p><strong>Special </strong>You can take this feat multiple times.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724816828115"
+    },
+    {
+      "id": "ea9bdb9d-de44-4059-b1bf-289f5ffda4ea",
+      "name": "Corrosive Venting",
+      "level": 13,
+      "reqFeats": [
+        "6cc235c7-a142-4e8d-beef-cd1589f89b9e"
+      ],
+      "textDescription": "<p><strong>Prerequisites&nbsp;</strong>Vent Gas</p><br><hr><br><p>You can control the strength and causticity of your internal gases as you vent them. When you Vent Gas, increase the area of your emanation to 10 feet. Additionally, you can choose to make the gas you vent caustic. If you do, non-barathu creatures within the vented gas when you create it, or who begin their turn in the gas, are dealt 3d6 acid damage, with a&nbsp;basic Reflex save against your class DC or spell DC, whichever is higher. On a critical failure, a creature additionally takes 1d4 persistent acid damage. At 17th level, the acid damage increases by 2d6 and the persistent acid damage increases by 1d4</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724824437452"
+    },
+    {
+      "id": "f2395812-fbd8-405b-9cb6-3a05d8fb5b3c",
+      "name": "Barathu Lore",
+      "textDescription": "<p>From your upbringing, you’ve learned the ways of your people while also seeking to expand your own mind in the fields of creation. You gain the trained proficiency rank in Crafting and Medicine. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice.</p><br><p>You also gain the Additional Lore general feat for Barathu Lore.</p><br><p><strong>Note:&nbsp;</strong>Due to the limitations of Pathbuilder, you will need to manually input Barathu Lore for the Additional Lore feat.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724816506502",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Crafting",
+          "effectType": 11,
+          "bonusAmount": 2
+        },
+        {
+          "proficiencyName": "Medicine",
+          "effectType": 11,
+          "bonusAmount": 2
+        },
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Additional Lore",
+          "reference": "8433c406-2466-43b2-8a0f-47281526cea6"
+        }
+      ]
+    },
+    {
+      "id": "dced1002-c877-4f9f-afca-f4c5199d8717",
+      "name": "Synthesize Medicinal",
+      "action": 2,
+      "reqFeats": [
+        "aaec6208-1c64-4860-8e16-4ea5b6e0e6a3"
+      ],
+      "textDescription": "<p><strong>Prerequisites </strong>manufacturer heritage</p><br><p><strong>Frequency </strong>once per day</p><br><hr><br><p>You can synthesize beneficial remedies within your own body and immediately digest them. You create one elixir, potion, or serum that you know the formula for with a level equal to your level or lower. You don’t pay any cost to create this item. You immediately consume and digest this item, Activating it as a free action that has the concentrate trait, rather than its usual activation method.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724817661094"
+    },
+    {
+      "id": "7e8a3c59-354b-4836-bd01-4dc9df1afa57",
+      "name": "Protective Subroutine",
+      "level": 5,
+      "reqFeats": [
+        "7b07c553-2b1c-4a47-a52a-a16153ae8863"
+      ],
+      "textDescription": "Your nanites augment your defenses. You can choose to activate Nanite Surge when you attempt a saving throw instead of when you attempt a skill check. If you do, you gain a +2 status bonus to the triggering saving throw.",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724817620407"
+    },
+    {
+      "id": "c344933b-840d-478c-b290-dbacaa27afb6",
+      "name": "Android Lore",
+      "textDescription": "<p>You have a keen interest in the origins of your people. You become trained in Crafting and Thievery. If you would automatically become trained in one of those skills (from your&nbsp;background or class, for example), you instead become trained in a skill of your choice.</p><br><p>You also gain the Additional Lore general feat for Android Lore</p><p>Note: You will have to manually add Android as your additional Lore.</p>",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724812887642",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Crafting",
+          "effectType": 11,
+          "bonusAmount": 2
+        },
+        {
+          "proficiencyName": "Thievery",
+          "effectType": 11,
+          "bonusAmount": 2
+        },
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Additional Lore",
+          "reference": "1000ab2d-7644-42b3-a8bb-da8dc408779d"
+        }
+      ]
+    },
+    {
+      "id": "6068a230-544f-4630-b472-db80b94e2092",
+      "name": "Offensive Subroutine",
+      "level": 9,
+      "reqFeats": [
+        "7b07c553-2b1c-4a47-a52a-a16153ae8863"
+      ],
+      "textDescription": "<p>Nanites augment your attacks. You can choose to activate Nanite Surge when you attempt an attack roll, instead of when you attempt a skill check. If you do, you gain a +1 status bonus to the triggering attack roll.</p>",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814129391"
+    },
+    {
+      "id": "99480d64-4ca7-44eb-9306-0dc9289a6e96",
+      "name": "Nanite Form",
+      "level": 17,
+      "action": 2,
+      "textDescription": "<p><strong>Frequency&nbsp;</strong>once per day</p><br><hr><br><p>You discorporate into a swarm of nanites for up to 1 minute or until you spend a single action to return to your normal shape. You become Huge, gain the swarm trait, and gain a fly Speed of 40 feet. As a swarm, you have the following characteristics.</p><br><p>• You are immune to the grabbed, prone, and restrained&nbsp;conditions.</p><br><p>• You have weakness 5 to area and splash damage.</p><br><p>• You can occupy the same space as other creatures and&nbsp;must do so to use your damaging ability.</p><br><p>• As a 2-action activity, you can deal 10d6 acid damage to all&nbsp;creatures sharing your space (basic Reflex save with a DC&nbsp;equal to your class DC or spell DC, whichever is higher).</p><br><p>• You can’t speak, Cast Spells, use manipulate actions&nbsp;requiring your hands, Activate magic items, or make any&nbsp;Strikes with your normal body.</p><br><p>• You don’t gain the swarm mind ability, so you are still&nbsp;affected normally by mental effects.</p>",
+      "traits": "Android, Concentrate, Polymorph, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814605921"
+    },
+    {
+      "id": "85c637d6-9b4d-4e5b-b2f4-838cbb1fa4f4",
+      "name": "Consistent Surge",
+      "level": 13,
+      "reqFeats": [
+        "7b07c553-2b1c-4a47-a52a-a16153ae8863"
+      ],
+      "textDescription": "<p>Your nanites are incredibly effective, capable of improving your body’s efficiency more often. You can use Nanite Surge with a frequency of once per 10 minutes, rather than once per hour.</p>",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814107828"
+    },
+    {
+      "id": "be18eb46-e2dc-4fb8-9762-46986e02ebe6",
+      "name": "Synthetic Speech",
+      "level": 13,
+      "reqFeats": [
+        "2502880b-4e19-42dd-b3e1-87ac1e7807e8||edf3f15a-bb87-4b1f-ad0a-7809a1b3991b"
+      ],
+      "textDescription": "<p><strong>Prerequisites </strong>artificial scion or networked heritage</p><br><hr><br><p>Your nanites augment your defenses. You can cast <em>speak with computers </em>on yourself once per day as an innate arcane spell.</p>",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724817647205"
+    },
+    {
+      "id": "4d0643fa-5ab6-42c8-88f6-a59f041e88f9",
+      "name": "Emotionless",
+      "textDescription": "<p>Your inhibited or malfunctioning emotional processors make it difficult for you to feel strong emotions. You gain a +1 circumstance bonus to saving throws against emotion effects. If you roll a success on a saving throw against an emotion effect, you get a critical success instead.</p>",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724812936366"
+    },
+    {
+      "id": "85671c13-bddf-4a38-b234-7e52269d3724",
+      "name": "Memory Matrix",
+      "level": 17,
+      "textDescription": "<p>You refuse to surrender your autonomy and have erected mental bulwarks and technological protocols to safeguard your mind and memories. Whenever you attempt a Will save against a spell or effect that would give you the confused or controlled condition, roll that save twice and use the higher result (this is a fortune effect). If you would start your turn confused or controlled, you can immediately attempt a DC 5 flat check. On a success, you fight that mental control, becoming paralyzed until the end of your turn rather than acting against your will. If you roll a 20 on this flat check, you immediately end the confused or controlled condition.</p>",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814401030"
+    },
+    {
+      "id": "b0a3dc76-feaa-492f-b540-698013795d08",
+      "name": "Nightvision Adaptation",
+      "textDescription": "The nanites in your ocular processors have adapted to<br>darkness, enhancing your ability to see in the dark. You<br>gain darkvision.",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724813265285"
+    },
+    {
+      "id": "7b07c553-2b1c-4a47-a52a-a16153ae8863",
+      "name": "Nanite Surge",
+      "action": 0,
+      "textDescription": "<p><strong>Frequency</strong> once per hour</p><br><p><strong>Trigger&nbsp;</strong>You attempt a skill check requiring 3 actions or fewer.</p><br><hr><br><p>You stimulate your nanites, forcing your body to temporarily increase its efficiency. You gain a +2 status bonus to the triggering skill check. In addition, your circuitry glows, lighting a 10-foot emanation with dim light for 1 round.</p>",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724813231435"
+    },
+    {
+      "id": "418edbcf-7a75-463e-921a-73328f2cd4b9",
+      "name": "Internal Respirator",
+      "level": 9,
+      "textDescription": "<p>Your body can internally synthesize oxygen for limited periods of time. When you hold your breath, you can do so for an additional hour by rebreathing from your internal air reservoirs. At the end of this hour, your air reservoirs are expended. Refilling your empty air reservoirs takes 10 minutes of exposure to breathable air.</p>",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724813846233"
+    },
+    {
+      "id": "7a4c54d5-f7ec-430f-8747-35c468403df0",
+      "name": "Internal Compartment",
+      "textDescription": "You can hide a small object of up to light Bulk inside a hollow<br>cavity on one of your forearms. It takes 3 Interact actions to store an object in this way. You gain a +4 circumstance bonus to the DCs of checks for others to Seek or Steal objects stored inside your arm. If you store a weapon in your arm, you can use a single action to Interact to draw the weapon into the hand corresponding to your internal cavity, then Strike with the weapon.",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724813017530"
+    },
+    {
+      "id": "89ce8dd7-8a5a-42c9-ba81-f20ca31aadee",
+      "name": "Repair Module",
+      "level": 9,
+      "action": 1,
+      "reqFeats": [
+        "7b07c553-2b1c-4a47-a52a-a16153ae8863"
+      ],
+      "textDescription": "<p><strong>Frequency&nbsp;</strong>once per day</p><br><hr><br><p>You trigger your body’s self-repair programming, stimulating your body’s nanites to heal your wounds. You gain fast healing equal to half your level for 1 minute. While Repair Module is active, you can’t use other feats that require the use of your nanites</p>",
+      "traits": "Android, Concentrate, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724817538371"
+    },
+    {
+      "id": "9cfce24c-2d13-4e2f-84de-aa515fbe542b",
+      "name": "Revivification Protocol",
+      "level": 13,
+      "action": -1,
+      "textDescription": "<p><strong>Frequency </strong>once per day</p><br><p><strong>Trigger </strong>You have the dying condition and are about to attempt a recovery check.</p><br><hr><br><p>Your nanites are programmed to automatically revive you. You’re restored to 1 Hit Point, lose the dying and unconscious conditions, and can act normally on this turn. You gain or increase the wounded condition as normal when losing the dying condition in this way.</p>",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814233565"
+    },
+    {
+      "id": "b3b7fd3d-3427-4356-96df-99c7cfa272a0",
+      "name": "Quickened Processor",
+      "textDescription": "<p>You can quickly identify your surroundings, and you can use that information to your advantage while in the midst of danger or while in the process of piloting vehicles in hazardous situations. You gain a +1 circumstance bonus to Perception checks for initiative rolls and a +2 circumstance bonus to Piloting checks for initiative rolls.</p><br><p>&nbsp;<strong>Note:&nbsp;</strong>Pathbuilder does not allow the creation of custom skills, so you will need to note the bonus to Piloting elsewhere. Also note that Pathbuilder only gives the option for a flat +1 circumstance bonus to initiative rolls, so remember to subtract it if you roll a different skill for initiative than Perception, and to add 1 when using Piloting for initiative.</p>",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724813504036",
+      "listCustomEffects": [
+        {
+          "effectType": 20,
+          "bonusType": 2,
+          "bonusAmount": 1
+        }
+      ]
+    },
+    {
+      "id": "b40f30a1-57b5-4e05-85f0-cd0ba0c5e697",
+      "name": "Machine Saboteur",
+      "level": 5,
+      "textDescription": "You were created to fight other synthetic creatures, and<br>your attacks unleash destructive nanites that disrupt their<br>systems. When you roll a critical hit against a creature with<br>the tech trait, the target becomes glitching 1.",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724813632592"
+    },
+    {
+      "id": "faffa16d-8e3c-4d2f-a15d-76247992fa45",
+      "name": "Memory Recovery",
+      "textDescription": "<p>You retain instincts and fragmentary memories from the androids who previously occupied your body or from ancient programming embedded in your system. During your daily preparations, you can tap into these archived memories to become trained in one skill of your choice. This proficiency lasts until you prepare again. Since this proficiency is temporary, you can’t use it as a prerequisite for a skill increase or a permanent character option like a feat.</p>",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724813123060"
+    },
+    {
+      "id": "ff0b6b45-fae0-47d7-ab6a-7bf50daf983c",
+      "name": "Advanced Targeting System",
+      "level": 5,
+      "textDescription": "Your ocular processors are augmented with advanced targeting systems, allowing you to more easily pinpoint your enemy and predict their movements. You can cast <i>sure strike</i> once per day as a 1st-rank arcane innate spell.",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814452738",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Sure Strike",
+          "effectType": 9,
+          "bonusAmount": 1
+        }
+      ]
+    },
+    {
+      "id": "ee515c73-c97f-40ef-8245-a4e173596742",
+      "name": "Confident Actualization",
+      "action": -1,
+      "textDescription": "<p><strong>Frequency </strong>once per day</p><br><p><strong>Trigger </strong>You are about to attempt a saving throw or skill check</p><br><hr><br><p>Your utter confidence in your abilities helps you actualize your ambitions and push yourself to reach your desired goals. Roll the triggering check or save twice and use the better result.</p>",
+      "traits": "Human, Fortune, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724825848801"
+    },
+    {
+      "id": "0955121d-9ca0-449b-9a57-f65f0541f079",
+      "name": "Augmented",
+      "textDescription": "<p>You embrace scientific and technological advances, frequently integrating cutting-edge augmentations into your body in order to improve yourself. Choose one common augmentation with an item level of 1 or less. You begin with this augmentation already installed in your body (you don’t need to pay the credits to purchase this starting augmentation). Increase the maximum number of augmentations you can have installed by one.</p>",
+      "traits": "Human, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724825699545"
+    },
+    {
+      "id": "d3b2fa78-38ba-406b-974c-f67611b6368d",
+      "name": "Galactic Explorer",
+      "level": 5,
+      "textDescription": "<p>Whether you’re dodging shifting asteroids or emergent solar flares, exploring an undiscovered star system, or flying through a dangerous nebula, you’re a star-faring pilot at the forefront of galactic exploration. You always count a success as a critical success when using Piloting to Navigate or Plot Course, and you reduce the travel time it takes to fly to a destination by one day plus one day for every four days of travel (minimum 1).</p>",
+      "traits": "Human, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724825973027"
+    },
+    {
+      "id": "921f0d36-48bd-4971-a0f5-7493d6f18f71",
+      "name": "Inner Wellspring",
+      "level": 13,
+      "action": 1,
+      "textDescription": "<p><strong>Prerequisites </strong>pool of Focus Points</p><br><p><strong>Frequency </strong>once per day</p><br><hr><br><p>In a monumental feat of mental fortitude, you dig deep and draw on the memories of your lost ancestral homeworld of Golarion, tapping into inner reserves of power to pull off just one more miracle. You recover 1 Focus Point.</p>",
+      "traits": "Human, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724826089135"
+    },
+    {
+      "id": "592cb569-4d24-4ccd-9649-6dcba586b6d6",
+      "name": "Persistent Confidence",
+      "level": 17,
+      "reqFeats": [
+        "ee515c73-c97f-40ef-8245-a4e173596742"
+      ],
+      "textDescription": "<p><strong>Requirements </strong>Confident Actualization</p><br><hr><br><p>Even if nobody believes in you, you believe in yourself. You can use Confident Actualization once per hour, rather than once per day.</p>",
+      "traits": "Human, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724826318834"
+    },
+    {
+      "id": "06026565-a792-4e95-b7e5-2c3c2fb48ee7",
+      "name": "Pharmaceutical Crafting",
+      "textDescription": "<p>You can Craft medicinal items and poisons, though some have other requirements. When you select this feat, you gain formulas for four common pharmaceutical items of 2nd level or lower.</p>",
+      "traits": "General, Skill, 3rd Party",
+      "src": "SF2E Playtest",
+      "hashMapRequiredProficiences": {
+        "Crafting": 2
+      },
+      "databaseID": 1,
+      "timestamp": "1724815524624"
+    },
+    {
+      "id": "dc80e4f9-63aa-4167-95b1-8988066a0806",
+      "name": "Phreaker",
+      "textDescription": "<p><strong>Prerequisites:&nbsp;</strong>trained in Computers</p><br><p><span>You’ve learned how to hack using traditional methods that are more convenient but often less secure, such as calling a data center’s automatic help line and entering a unique tone to access a connected server. You can use Computers to Disable a Device or Hack a system using any computer, comm unit, or terminal instead of a hacking toolkit (page&nbsp;<span>212). If you’re an expert in Computers and the equipment you use is at least 3rd level, you gain a +1 item bonus to Disable a Device or Hack.</span><br> </span></p><br><br>Note: Pathbuilder does not enable adding custom skills, so you will have to manually note the bonus.",
+      "traits": "General, Skill, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724812664574"
+    },
+    {
+      "id": "47bf9e0b-a2a5-4594-a100-2a15449ee807",
+      "name": "Too Stubborn to Die",
+      "level": 17,
+      "action": 0,
+      "textDescription": "<p><strong>Frequency</strong>once per day</p><br><p><strong>Trigger </strong>You would die.</p><br><hr><br><p>You come back from the brink of death, hauling yourself back to consciousness despite your wounds and exhaustion. You push yourself to your absolute limits and don’t die. If you have the dying or unconscious conditions, you lose the dying and unconscious conditions. If you are at 0 Hit Points, you have 1 Hit Point. Increase the value of your wounded and doomed conditions by 1. You can use this reaction while unconscious.</p>",
+      "traits": "Human, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724826437836"
+    }
+  ],
+  "listCustomHeritages": [
+    {
+      "id": "3e8ab1ec-9f4d-4978-bf55-f9000e8f13c6",
+      "name": "Rime Walker Pahtra",
+      "textDescription": "<p>You’ve adapted to cold environments with a multilayer fluffy fur coat and extra body fat. You may be the descendant of ancient pahtras who dwelled on Pulonis long before the Veskarium’s exploitation changed its climate, or you may have unlocked this genetic potential through bioengineering.&nbsp;You gain cold resistance equal to half your level (minimum 1). You treat environmental cold effects as if they were one step less extreme (incredible cold becomes extreme, extreme cold becomes severe, and so on).</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Cold",
+          "effectType": 12,
+          "bonusType": 1
+        }
+      ]
+    },
+    {
+      "id": "4f7f0918-aba8-4303-bbdf-b2e86faf6b6e",
+      "name": "Hunter-Stalker Pahtra",
+      "textDescription": "<p>You descend from a long line of hunters and your fur is especially well suited to blending into multiple environments. As long as you are in a natural and undeveloped environment, you gain a +2 circumstance bonus to Stealth checks to Hide and Sneak, to Survival checks to Subsist, and to your Survival DC to Cover Tracks.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "a66a2ddf-5453-4bd4-b808-d7c5daea5b53",
+      "name": "Krreyvash Pahtra",
+      "textDescription": "<p>You or your ancestors chose to endure experimental bioengineering to help fight the Veskarium. Choose a 1stlevel biotech augmentation. The selected augmentation is permanently part of your body and does not count against the maximum number of augmentations you can implant. You don’t pay the cost for this augmentation. You can swap out this bonus augmentation by paying the appropriate cost for a new augmentation at any time.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "db570161-7d71-4bb5-85c7-71e57f9ff6f8",
+      "name": "Meyel's Chosen Pahtra",
+      "textDescription": "<p>You have an undeniable streak of luck that you believe is a blessing from your ancestral god Meyel. You may come from a long line of mystics, be born at a holy site on Pulonis, or simply have reached out in fervent prayer at a time of crisis. Most of Meyel’s chosen can point to at least one past event when their goddess may have intervened to save them from death or some other awful fate. Whether metaphorically or literally, you always seem to land on your feet. The first time each day that you critically fail a saving throw, you immediately reroll the saving throw as a free action; this is a fortune effect.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "cf7169c5-4048-4af0-aba0-506aed140549",
+      "name": "Pouncer Pahtra",
+      "textDescription": "<p>You excelled in the war games of your youth, and you’ve trained hard to maintain your athletic ability even on worlds where higher gravity makes such feats more tiring. You have lean and long legs that let you run exceptionally fast, and a large tail that acts as a rudder to maintain your balance during sharp turns. Your speed increases by 5 feet. In addition, you don’t automatically fail your checks to High Jump or Long Jump if you don’t Stride at least 10 feet first.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "effectType": 1,
+          "bonusType": 3,
+          "bonusAmount": 5
+        }
+      ]
+    },
+    {
+      "id": "209eb2e5-2e5e-42f9-843d-623573ae56dc",
+      "name": "Sand Roamer Pahtra",
+      "textDescription": "<p>Your ancestors roamed blasted terrain leeched of vital nutrients by the Veskarium. You are shorter and stockier than most pahtras, with wide, tufted ears and fur-covered paw pads. Your size is Small instead of Medium. You ignore difficult terrain and uneven ground caused by sand. In addition, environmental heat effects are one step less extreme for you (incredible heat becomes extreme, extreme heat becomes severe, and so on), and you can go 10 times as long as normal before you are affected by starvation or thirst.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "effectType": 18,
+          "int0": 1
+        }
+      ]
+    },
+    {
+      "id": "f7e207eb-48b6-43fb-979e-c4e0d8186a99",
+      "name": "Korasha Lashunta",
+      "textDescription": "<p>You’ve chosen the adaptive genetics that lead to becoming a korasha. You may be shorter than other lashuntas and would likely excel as a warrior or explorer. You gain an attribute boost to Strength and an attribute flaw to Wisdom, but the free ancestry boost cannot also be Strength. You gain 8 Hit&nbsp;Points from your ancestry instead of 6, and you gain a +1 circumstance bonus to Athletics checks to Shove or Trip foes.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "effectType": 21,
+          "bonusAmount": 1,
+          "casterAbilityRef": 0
+        },
+        {
+          "effectType": 21,
+          "bonusAmount": -1,
+          "casterAbilityRef": 4
+        },
+        {
+          "effectType": 5,
+          "bonusAmount": 2,
+          "int0": 0
+        }
+      ]
+    },
+    {
+      "id": "f0f5d2c5-dd8d-4768-a7b0-a2f0bf0ef454",
+      "name": "Damaya Lashunta",
+      "textDescription": "<p>You’ve chosen the adaptive genetics that lead to becoming a damaya. You may be taller than other lashuntas and are likely encouraged to pursue work as a scholar or politician. You gain an attribute boost to Intelligence and an attribute flaw to Constitution, but the free ancestry boost cannot also be Intelligence. You gain the trained proficiency in Diplomacy. If you would automatically become trained in Diplomacy (from your background or class, for example), you become trained in another skill of your choice. You gain the Additional Lore feat.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "effectType": 21,
+          "bonusAmount": 1,
+          "casterAbilityRef": 3
+        },
+        {
+          "effectType": 21,
+          "bonusAmount": -1,
+          "casterAbilityRef": 2
+        },
+        {
+          "proficiencyName": "Diplomacy",
+          "effectType": 11,
+          "bonusAmount": 2
+        },
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Additional Lore",
+          "reference": "3f1487c3-14ee-4eb6-af16-a0b3e34fe108"
+        }
+      ]
+    },
+    {
+      "id": "4e4a7bde-d209-4b74-9620-9e271ccb769a",
+      "name": "Unbound Lashunta",
+      "textDescription": "<p>You decided against activating your ancestry’s adaptive genetics, and you might show a combination of damaya and korasha traits; you may be tall and muscular, small and lithe, or have unusual features, such as bumps and swirls covering your entire body or long, fuzzy antennae. You gain the Unbound Mind reaction.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "effectType": 13,
+          "string0": "1ee21dcf-d869-49fd-8dc1-d171b715881d",
+          "int0": 1
+        }
+      ]
+    },
+    {
+      "id": "16cc57ec-5b4e-4f07-bbd6-03439c9e7a11",
+      "name": "Stellar Nomad",
+      "textDescription": "<p>You choose to travel abroad, leaving your birthplace to embark on a journey through the wider cosmos. During your daily preparations, you can study a particular faction, philosophy, ancestry, or religion to learn one of their edicts or anathemas and gain a broader understanding of that culture’s customs and traditions. While you follow that edict or anathema, you become trained in the associated lore (such as Vesk Lore or Damoritosh Lore). This proficiency lasts until you prepare again. Since this training is temporary, you can’t use it as a prerequisite for a permanent character option like a feat or a skill increase.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724826880865"
+    },
+    {
+      "id": "1e3117d2-9a89-4aed-b692-b5e18f1462b4",
+      "name": "Kasath Survivalist",
+      "textDescription": "<p>You and your ancestors were among those who chose not to abandon your dying homeworld. Your people trek through wasted lands under dim skies, seeking shelter and resources even as they slowly dwindle. You may have finally decided to seek a better life, or perhaps you hope to convince others to return to Kasath with you. You can Hustle twice as long while exploring before you have to stop. If you’re in a group that is Hustling, you increase the total number of minutes the group can Hustle by 10 minutes, or by 20 minutes if you’re 13th level or higher. You gain the Feather Step feat.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724826776597",
+      "listCustomEffects": [
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Feather Step",
+          "reference": "8c82fe1d-9aca-4c1d-bb8b-6ee4949dbb1d"
+        }
+      ]
+    },
+    {
+      "id": "263c0e28-f77e-4e3b-b8f7-78e588813830",
+      "name": "Tempering",
+      "textDescription": "<p>You are undergoing your Tempering, a coming-of-age ritual in which a kasatha rejects the formal traditions of their family and experiences other customs and traditions. You may be one of the Untempered, a kasatha who chooses to continue their Tempering beyond the traditional yearlong period. You become trained in Society and gain the Streetwise feat.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724826948366",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Society",
+          "effectType": 11,
+          "bonusAmount": 2
+        },
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Streetwise",
+          "reference": "3e576238-d33a-4ff7-9533-5c8eb97fd94d"
+        }
+      ]
+    },
+    {
+      "id": "4ed8ad54-e0af-48c3-9f78-912a89df8111",
+      "name": "Akitonian",
+      "textDescription": "<p>You (or one of your ancestors) traveled to the Pact Worlds on the Idari and settled on Akiton. Akiton’s significantly lower gravity grants you an advantage in the fun and practical art of leaping, and you likely revel in the many rituals surrounding the desert world’s popular sports. You gain the Quick Jump feat and don’t treat sand as uneven ground.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724826710480",
+      "listCustomEffects": [
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Quick Jump",
+          "reference": "1fb568f0-938b-444b-94c1-07245d58ab1e"
+        }
+      ]
+    },
+    {
+      "id": "658cd387-241e-478a-9085-c9ee697e3f1e",
+      "name": "Shipborn",
+      "textDescription": "<p>You were one of the kasathas born and raised on the Idari generation ship that now orbits the Pact Worlds’ sun. Your family kept hope and tradition alive while enduring the&nbsp;hardships of lengthy space travel. For you, the Idari is the only home you’ve ever known. When you roll a success on a saving throw against an emotion effect, you get a critical success instead.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724826830280"
+    },
+    {
+      "id": "0b4b72df-a9f4-4c04-adee-f440bfd8f4fc",
+      "name": "Merged",
+      "textDescription": "<p>You are a unique entity, formed from the constant union of two or more barathus who enjoy the act of combination so much that they chose not to return to isolation as their former selves. You’re Large instead of Medium. You gain 10 Hit Points from your ancestry instead of 8, and you gain a +1 circumstance bonus to saving throws against emotion effects.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724815738287",
+      "listCustomEffects": [
+        {
+          "effectType": 18,
+          "int0": 3
+        },
+        {
+          "effectType": 5,
+          "bonusAmount": 2,
+          "int0": 0
+        }
+      ]
+    },
+    {
+      "id": "161100a1-719d-4242-9097-0d3078065926",
+      "name": "Dreamer",
+      "textDescription": "<p>You have communed with the cosmic melody of Liavara and it changed you. You struggle to express the fragments of memory and sensation you recall from the experience, except through singing and other similar psychic emanations. Choose one cantrip from the occult spell list. By weaving magic into your song, you can cast this spell as an occult innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</p><br><p>Your magic is adaptable, and you can channel your music to enhance it. Once per day, you can meditate on your cosmic song to change the cantrip you have chosen to a different cantrip from the occult spell list. This is a 10-minute activity that has the concentrate trait.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724815271193"
+    },
+    {
+      "id": "950ae2b8-5d13-405b-83fb-9efb28b39c02",
+      "name": "Early Stage",
+      "textDescription": "<p>You are young and inexperienced compared to other barathus, with an individualistic worldview likely shaped by your interactions with other cultures. You’ve yet to see the full breadth of the cosmos and haven’t adapted yourself to overcome its many threats or understand its various lifeforms. Your form is highly mutable as you haven’t yet chosen to specialize or merge with other barathus. You’re Small instead of Medium. You gain Quick Squeeze as a bonus feat. Additionally, you gain resistance to precision damage equal to half your level (minimum 1).</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724815373894",
+      "listCustomEffects": [
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Quick Squeeze",
+          "reference": "96021b99-41aa-4c79-995b-e3682f22b052"
+        },
+        {
+          "effectType": 18,
+          "int0": 1
+        },
+        {
+          "proficiencyName": "Precision",
+          "effectType": 12,
+          "bonusType": 1
+        }
+      ]
+    },
+    {
+      "id": "aaec6208-1c64-4860-8e16-4ea5b6e0e6a3",
+      "name": "Manufacturer",
+      "textDescription": "<p>Your body is a living laboratory, allowing you to ingest raw materials and refine them into useful medicines and other products. You become trained in Crafting (or another skill of your choice if you’re already trained in Crafting) and gain the Pharmaceutical Crafting feat.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724815619417",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Crafting",
+          "effectType": 11,
+          "bonusAmount": 2
+        }
+      ]
+    },
+    {
+      "id": "59202ee8-434f-486f-8ed6-08b47491d269",
+      "name": "Mod Fanatic",
+      "textDescription": "You or your previous iterations have modified your body to be compatible with armor upgrades, enabling you to personally customize your body and its capabilities. Your<br>body has one armor upgrade slot that you can use to modify<br>your body. You can install and uninstall armor upgrades into your upgrade slot using the Install Upgrade activity. Choose one common armor upgrade with an item level of 1 or less. You begin with this armor upgrade already installed in your upgrade slot (you don’t need to pay the credits to purchase this starting upgrade).",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814692164"
+    },
+    {
+      "id": "219b6dbd-922b-408c-9b1b-c6e11cc148b3",
+      "name": "Renewed Android",
+      "textDescription": "Many souls have inhabited your synthetic body before you, and you might incorporate a number into your name to honor them. You might know your body’s history and strive toward a goal bequeathed to you by a departed soul, or you might seek to unravel the mystery of a forgotten legacy. Muscle memory hints at your body’s past, and people you’ve never met strangely recognize your face. The first time in a day that you lose the dying condition, you don’t gain the wounded condition. You become trained in a skill of your choice that has the Recall Knowledge action, and you gain the Dubious Knowledge skill feat.<br><br>Note: Pathbuilder does not enable me to give you a free skill of your choice, so you will have to manually add the skill training to your character.",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814707874",
+      "listCustomEffects": [
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Dubious Knowledge",
+          "reference": "93320993-6728-4fcb-b8d0-53669d85af10"
+        }
+      ]
+    },
+    {
+      "id": "2502880b-4e19-42dd-b3e1-87ac1e7807e8",
+      "name": "Artificial Scion",
+      "textDescription": "Your body wasn’t created in the image of a biological creature; a powerful artificial intelligence created you to interface with other machines. Your physiology is nearly identical to other androids, but uncanny details give away your non-standard origins (for example, you might have impossibly symmetrical features, extra fingers, or double pupils). You become trained in Computers, and you gain the Phreaker skill feat.",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814685454",
+      "listCustomEffects": [
+        {
+          "effectType": 14,
+          "string0": "dc80e4f9-63aa-4167-95b1-8988066a0806",
+          "reference": "2493c9e0-ed63-47eb-a786-606f675032b2"
+        }
+      ]
+    },
+    {
+      "id": "795fd29d-d662-4914-8cb5-56ad6828164a",
+      "name": "Ancient Android: Polyglot",
+      "textDescription": "You were preprogrammed with a multitude of<br>linguistic proficiencies, likely to act as a translator. You learn two new languages, chosen from common languages and any uncommon languages you have access to. These languages take the same form (signed or spoken) as your other languages. If you select the Multilingual feat, you learn three new languages instead of two.",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814668184"
+    },
+    {
+      "id": "8892f86c-9b69-4a3b-8bf9-b9e1c4ee8a2e",
+      "name": "Ancient Android: Artisan",
+      "textDescription": "<p><span>Your body was originally designed to create works of art or complex tools, or to maintain advanced machinery. You become trained in Crafting (or another skill if you’re already trained in Crafting), and you gain the Specialty Crafting skill feat in a specialty of your choice.</span></p>",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814649345",
+      "listCustomEffects": [
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Specialty Crafting",
+          "reference": "4b64457e-ddf9-481d-ab8b-ae5381e2d718"
+        },
+        {
+          "proficiencyName": "Crafting",
+          "effectType": 11,
+          "bonusAmount": 2
+        }
+      ]
+    },
+    {
+      "id": "93f16648-0c22-454b-be27-f8334fc36f83",
+      "name": "Ancient Android: Laborer",
+      "textDescription": "Your body is adapted to endure physical hardships<br>or perform hard labor for long periods of time. You become<br>trained in Athletics, and you gain the Hefty Hauler skill feat.",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814659354",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Athletics",
+          "effectType": 11,
+          "bonusAmount": 2
+        },
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Hefty Hauler",
+          "reference": "603fcc1d-fc40-460a-b7ad-1e3573b319b0"
+        }
+      ]
+    },
+    {
+      "id": "d4bdee8e-592f-4573-95dc-d01d33f3198d",
+      "name": "Ancient Android: Warrior",
+      "textDescription": "Your body was originally forged for combat, likely created to function as a security officer or soldier. Your synthetic and organic components are optimized for battle, and you possess intrinsic tactical ability regardless of your current disposition. You’re trained in all simple and martial weapons.",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814676500",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Simple Weapons",
+          "effectType": 11,
+          "bonusAmount": 2
+        },
+        {
+          "proficiencyName": "Martial Weapons",
+          "effectType": 11,
+          "bonusAmount": 2
+        }
+      ]
+    },
+    {
+      "id": "edf3f15a-bb87-4b1f-ad0a-7809a1b3991b",
+      "name": "Networked",
+      "textDescription": "<p>Your body was modified to network seamlessly with anacites, robots, and other technological beings from Aballon. You gain shortwave, allowing you to communicate wirelessly with any creatures within 30 feet, as long as they have shortwave or are a construct with the technological trait. This doesn’t give any special access to their thoughts or programming, and communicates no more information than normal speech would. You can attempt Computers checks to Hack System and Thievery checks to Disable a Device or Pick a Lock on technological devices at a range of 30 feet.</p>",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814700533"
+    },
+    {
+      "id": "39f74353-26ad-4bd1-8889-ad25a6c5e79d",
+      "name": "Azlanti",
+      "textDescription": "<p>You or your ancestors were born on a world controlled by the Azlanti Star Empire. You may have prominent brows, purple eyes, or a widow’s peak. Choose one cantrip from the arcane spell list. You can cast this spell as an arcane innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up. You can change this cantrip to a different one from the same list once per day by meditating to draw on the power of your runic blood; this is a 10-minute activity that has the concentrate trait.</p><br><p><strong>Note:&nbsp;</strong>Pathbuilder doesn't allow giving a free cantrip of your choice with Custom content, so you'll have to add it manually.</p>",
+      "traits": "Human, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724825104414"
+    },
+    {
+      "id": "213cec0f-578e-42a8-9e2c-e30c708d4255",
+      "name": "Golarion Survivor",
+      "textDescription": "<p>Your ancestors lived on lost Golarion, and though the circumstances of your family’s survival are lost to the Gap, your family taught you ancient traditions from a young age. You become trained with archaic weapons and Golarion Lore, and you learn a bonus language that was spoken in your lineage’s region of origin (see Pathfinder Player Core 34). You gain the Diehard feat.</p><br><p><strong>Note:&nbsp;</strong>You will have to manually add Golarion Lore and training with archaic weapons. (Archaic is a weapon trait in SF2E.)</p>",
+      "traits": "Human, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724825341958",
+      "listCustomEffects": [
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Diehard",
+          "reference": "001198e0-5b56-4a93-abc2-3ee5659bf288"
+        }
+      ]
+    },
+    {
+      "id": "56987ca6-89ac-4037-8eeb-892e6601365a",
+      "name": "Scavenger",
+      "textDescription": "<p>Your ancestors spent generations scraping by on a world illsuited to supporting them, such as the dying planet of Akiton, in the access corridors of Absalom Station’s Downlow, or the Halls of the Living on Eox, and you’re accustomed to getting by with less. The number of days you can go without food or water before you take damage from thirst or starvation is increased by 2 (to a number of days equal to 3 + your Constitution modifier). You gain a +1 circumstance bonus on Society and Survival checks to Subsist, and a +1 circumstance bonus on saving throws against gaining the sickened condition and to remove the sickened condition.</p>",
+      "traits": "Human, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724825424255"
+    },
+    {
+      "id": "f2860848-1f55-4ef4-869c-a7833a6042f3",
+      "name": "Urbanite",
+      "textDescription": "<p>You’ve grown up in a big city and are accustomed to the press and pull of the largest crowds, the electric buzz and tangle of streets, or the dense nature of vertical living on a station or megaplex. You ignore difficult terrain from crowds and lesser cover from crowds. You become trained in Lore for one specific city of your choice.</p><br><p><strong>Note:&nbsp;</strong>You will need to add the city Lore manually.</p>",
+      "traits": "Human, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724825521487"
+    }
+  ],
+  "listCustomSpells": [
+    {
+      "uniqueID": "0b598c31-017e-4b4f-9318-012e791b4e4d",
+      "name": "Flashfire",
+      "type": "Spell",
+      "level": 3,
+      "traits": "Concentrate, Fire, Manipulate, 3rd Party",
+      "arrayTraditions": [
+        0,
+        3
+      ],
+      "actions": 3,
+      "descriptionHeightened": "<p><strong>Traditions </strong>arcane, primal</p><br><p><strong>Range </strong>120 feet; <strong>Targets </strong>10-foot burst</p><br><p><strong>Defense </strong>basic reflex; <strong>Duration </strong>sustained up to 1 minute</p><br><hr><br><p>You cause fires to ignite and spread. This deals 3d6 fire damage to each creature that’s in the area when the spell is cast or that ends its turn in the area (basic Reflex save). A creature who critically fails its saving throw also takes 4 persistent fire damage. The area is hazardous terrain. A creature who moves on the ground through the area takes 4 fire damage for every square of that area it moves into. Everything on each side of the flashfire is concealed from creatures on the opposite side. Each time you sustain this spell, the radius of the fire increases by 5 feet.</p><br><hr><br><p><strong>Heightened (+1) </strong>The fire damage increases by 1d6. The persistent damage increases by 1, and the hazardous terrain damage increases by 1.</p>",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "uniqueID": "fb1878e2-8350-408e-8e80-037c9900a860",
+      "name": "Gravity Tether",
+      "type": "Spell",
+      "level": 3,
+      "traits": "Attack, Concentrate, Manipulate, 3rd Party",
+      "arrayTraditions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "actions": 2,
+      "descriptionHeightened": "<p><strong>Traditions </strong>arcane, divine, occult, primal</p><br><p><strong>Range </strong>30 feet&nbsp;<strong>Targets </strong>1 creature</p><br><p><strong>Defense </strong>AC</p><br><hr><br><p>You manipulate the electromagnetic forces acting on a creature. Make a ranged spell attack. The target takes 4d8 electricity damage and is pulled 5 feet closer to you, or 10 feet closer on a critical hit. Moving the target into a barrier, creature, or obstacle causes the target to stop before entering that space.</p><br><hr><br><p><strong>Heightened (+1) </strong>Make a ranged spell attack roll against up to two target creatures. Both attacks count toward your multiple attack penalty, but it doesn’t increase until after both attacks.</p>",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    }
+  ],
+  "listCustomSpecial": [
+    {
+      "name": "Unbound Mind",
+      "id": "1ee21dcf-d869-49fd-8dc1-d171b715881d",
+      "description": "<p><strong>Trigger </strong>You attempt a saving throw against a mental effect, but you haven’t rolled yet; <strong>Effect </strong>You refuse to conform to the will of others, shaking off their attempts to control you with sheer determination. You gain a +1 circumstance bonus to saving throws on the triggering save and other saves against mental effects until the start of your next turn.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "actions": 0,
+      "databaseID": 1
+    },
+    {
+      "name": "Redirect Energy",
+      "id": "30f681af-68bd-48b7-a933-b3ad181b6385",
+      "description": "<p><strong>Trigger </strong>You are dealt cold damage or fire damage; <strong>Effect </strong>You tap into the harmful energy directed at you and redirect its essence into a melee weapon you’re holding. Until the end of your next turn, the selected weapon deals an additional 1d4 damage of the triggering damage type. During this time, you lose any resistance to the triggering damage type granted to you by Perfectly Balanced.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "level": 13,
+      "actions": 0,
+      "databaseID": 1
+    },
+    {
+      "name": "Piercing Spikes",
+      "id": "6c0c01cb-5f72-43eb-a0c8-bb85dfc68c7f",
+      "description": "<p><strong>Trigger </strong>You become grabbed by a creature;</p><br><p><strong>Effect</strong> You twist and thrash your body around, dealing 1d4 plus your Strength modifier piercing damage to the triggering creature. This damage increases by 1d4 at 5th level and every four levels thereafter.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "actions": 0,
+      "databaseID": 1,
+      "timestamp": "1724816679102"
+    },
+    {
+      "name": "Targeted Immunization",
+      "id": "e7483fdd-f897-4629-996f-61db3bdc06d0",
+      "description": "<p><strong>Trigger</strong> You recover from a disease or poison;</p><br><p><strong>Effect </strong>You instinctively synthesize antigens that make you immune to the triggering disease or poison. This immunity lasts for the next day or until you next use Targeted Immunization.</p>",
+      "traits": "Barathu, Concentrate, 3rd Party",
+      "src": "SF2E Playtest",
+      "actions": -1,
+      "databaseID": 1,
+      "timestamp": "1724816925794"
+    },
+    {
+      "name": "Adaptive Locomotion",
+      "id": "d0e29123-a86f-4c2e-a032-97ffe6eaa13d",
+      "description": "<p><strong>Frequency </strong>once per hour;</p><br><p><strong>Effect </strong>You transform your limbs into either flippers or hooked pseudopods, to better traverse the surrounding environment. If you select flippers, you gain a swim Speed of 20 feet. If you select hooked pseudopods, you gain a climb Speed of 20 feet. This transformation lasts for 10 minutes.</p>",
+      "traits": "Barathu, Morph, 3rd Party",
+      "src": "SF2E Playtest",
+      "actions": 1,
+      "databaseID": 1,
+      "timestamp": "1724816685258"
+    }
+  ],
+  "listCustomAncestries": [
+    {
+      "name": "Pahtra",
+      "id": "9702b313-57bd-4faf-a94a-de5170d519cd",
+      "traits": "Humanoid, Pahtra, 3rd Party",
+      "abilityBoosts": [
+        1,
+        5
+      ],
+      "abilityFlaws": [
+        2
+      ],
+      "description": "<p>Pahtras are a humanoid feline species from a nearby star system. They’re highly competitive and are known for their achievements in magic, music, and war. Their homeworld was recently freed from occupation by the Veskarium and they've joined the Pact Worlds.</p>",
+      "languages": "Common, Pahtra, Vesk",
+      "special": "<p><strong>Darkvision</strong></p><br><p>You can see in darkness and dim light just as well as you can see in bright light, though your vision in darkness is in black and white.</p>",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "name": "Lashunta",
+      "id": "951ad6ac-2d29-4431-bc35-bee82f8dee9d",
+      "traits": "Humanoid, Lashunta, 3rd Party",
+      "hp": 6,
+      "abilityBoosts": [
+        5
+      ],
+      "abilityFlaws": [],
+      "description": "<p>Lashuntas evolved psychic abilities and a unique dimorphism that helped them survive on their homeworld of Castrovel. Lashuntas manipulate their own genetics at puberty, allowing each individual to develop into an enhanced scholar or warrior, though not every lashunta commits to these traditional choices.</p>",
+      "languages": "Common, Castrovelian",
+      "special": "<p><strong>Limited Telepathy</strong></p><br><p>You can communicate mentally with creatures within 30 feet. You can communicate only with creatures that share a language with you. This doesn't give you any access to their thoughts, and communicates no more information than normal speech would.</p>",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "name": "Kasatha",
+      "id": "7c5d5654-d1bd-45e1-bbc5-0eaaaacf40ec",
+      "traits": "Humanoid, Kasatha, 3rd Party",
+      "abilityBoosts": [
+        0,
+        4
+      ],
+      "abilityFlaws": [
+        5
+      ],
+      "description": "<p>Steeped in the ancient traditions of a distant home world orbiting a dying star, kasathas are four-armed humanoids who arrived in the Pact Worlds aboard a massive worldship named Idari. Striving for cosmic balance in all things, kasathas take pride in tempering their technological advances with the wisdom of their ancestors.</p>",
+      "languages": "Common, Kasatha, one regional language of your choice",
+      "special": "<p><strong>Four-Armed</strong></p><br><p>You have four arms, which allows you to wield and hold up to four hands’ worth of weapons and equipment. At any time, one pair of hands is designated as your active hands. You can change this designation from one pair of hands to another by taking the Switch Active Hands action, which is a single action. You can only perform actions with your active hands. For more information on playing characters with more than two hands, see page 172.</p>",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "name": "Barathu",
+      "id": "e57f2067-cbb8-458d-848f-0a69820f8ec4",
+      "traits": "Barathu, Aberration, 3rd Party",
+      "abilityBoosts": [
+        2,
+        4
+      ],
+      "abilityFlaws": [
+        1
+      ],
+      "description": "<p>Barathus are floating, blimplike beings that edit their own genetic code and merge together into countless bizarre and beautiful configurations.&nbsp;Early-stage barathus tend to be individualistic and gravitate toward learning&nbsp;about other cultures, while more experienced barathus develop a fluid sense of self and seek communion with others on a deeper level.</p>",
+      "languages": "Common,Brethedan",
+      "special": "<p><strong>Fly Speed&nbsp;</strong>20 feet</p><br><p><strong>Genetic Adaptation</strong></p><br><p>You can reshape and adjust your body to adapt to new situations. You can retrain&nbsp;an ancestry feat in one day of downtime, rather than in one week. You can retrain any ancestry feat, even lineage feats.<br><br><strong>Limited Telepathy</strong></p><br><p>You can communicate mentally with creatures within 30 feet. You can communicate only with creatures that share a language with you. This doesn’t&nbsp;give you any access to their thoughts, and it communicates no more information than normal speech would.<strong><br></strong></p>",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "name": "Android",
+      "id": "bf30fa58-ace3-4e51-825f-c13b8237afb6",
+      "traits": "Android, Humanoid, 3rd Party",
+      "abilityBoosts": [
+        1,
+        3
+      ],
+      "abilityFlaws": [
+        5
+      ],
+      "description": "Androids first emerged as synthetic beings crafted by many technologically advanced civilizations throughout the galaxy. Unlike many other technological constructs, androids are more than intricate synthetic organs and complex programming, and each possesses their own soul.",
+      "languages": "Common",
+      "special": "<p><strong>Low-Light Vision</strong><br>You can see in dim light as though it were bright light, and you ignore the concealed condition due to bright light.<br><br><strong>Constructed</strong><br>Your synthetic body resists ailments better than that of a purely biological organism. You gain a +1 circumstance bonus to saving throws against diseases, poisons, and radiation.<br><br><strong>Emotionally Unaware</strong><br>You sometimes find it difficult to process and express complex emotions. You take a -1 circumstance penalty to Diplomacy and Performance checks, and on Perception checks to Sense Motive.</p>",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Diplomacy",
+          "bonusType": 2,
+          "bonusAmount": -1
+        },
+        {
+          "proficiencyName": "Performance",
+          "bonusType": 2,
+          "bonusAmount": -1
+        }
+      ],
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    }
+  ]
+}
