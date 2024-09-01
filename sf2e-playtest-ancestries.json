@@ -2235,7 +2235,7 @@
       "id": "77087c4b-7ef2-454a-9101-e05b44a801c8",
       "name": "Nimble Tail",
       "textDescription": "<p>You have an incredibly nimble tail that helps you balance in zero gravity; this could be a hereditary gift from your ancestors as they adapted to spaceflight or the result of personal augmentation. You can use your tail to Push Off while in zero-g. In addition, you ignore the clumsy and offguard penalties while untethered in zero gravity.</p>",
-      "traits": "Ysoki, 3rd Party",
+      "traits": "Ratfolk, Ysoki, 3rd Party",
       "src": "SF2E Playtest",
       "databaseID": 1
     },
@@ -2268,7 +2268,7 @@
       "id": "2918c6d0-7bb0-4259-a40d-6fdaf08b8f27",
       "name": "Grandmother's Lore",
       "textDescription": "<p>You cleave close to Lao Shu Po’s teachings and aren’t afraid to lie, cheat, or steal to get what you desire. Thanks to your extra devotion, you gain the trained proficiency rank in Deception and Thievery. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You gain the Additional Lore general feat for Lao Shu Po Lore.</p><br><p><strong>Note:&nbsp;</strong>You will need to set Lao Shu Po Lore manually for Additional Lore.</p>",
-      "traits": "Ysoki, 3rd Party",
+      "traits": "Ratfolk, Ysoki, 3rd Party",
       "src": "SF2E Playtest",
       "databaseID": 1,
       "listCustomEffects": [
@@ -2283,7 +2283,7 @@
       "id": "57f3ce1d-7305-44ca-b735-e9be7a35bf6e",
       "name": "Ysoki Lore",
       "textDescription": "<p>Years of experience among ysoki communities have made you nimble, and you’ve learned to run and hide when enemies threaten. You gain the trained proficiency rank in Acrobatics and Stealth. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also gain the Additional Lore general feat for Ysoki Lore.</p><p><b>Note: You will have to manually input Kasatha Lore for Additional Lore.</b></p>",
-      "traits": "Ysoki, 3rd Party",
+      "traits": "Ratfolk, Ysoki, 3rd Party",
       "src": "SF2E Playtest",
       "databaseID": 1,
       "timestamp": "1724827166089",
@@ -2312,7 +2312,7 @@
         "e8ef8bf8-0c80-4d8f-b9b9-8e9bc9c2d4e7||RATFOLK_Tunnel Rat"
       ],
       "textDescription": "<p><strong>Prerequisites </strong>shipborn ysoki heritage or tunnel ysoki heritage</p><br><hr><br><p>You use your size against larger foes, moving through them in a variety of ways to avoid notice and move undisturbed. As long as you are Small, you can end a successful Tumble Through action in a Medium or larger sized enemy’s space. The enemy must have appropriate limbs or otherwise leave you enough room for this maneuver, as determined by the GM. You could not, for example, occupy the space of an ooze that matches the full dimensions of the square. While you occupy an enemy’s space, that enemy is off-guard to you, and it treats its space as difficult terrain.</p>",
-      "traits": "Ysoki, 3rd Party",
+      "traits": "Ratfolk, Ysoki, 3rd Party",
       "src": "SF2E Playtest",
       "databaseID": 1
     },
@@ -2324,7 +2324,7 @@
         "77087c4b-7ef2-454a-9101-e05b44a801c8"
       ],
       "textDescription": "<p><strong>Prerequisites </strong>Nimble Tail</p><br><hr><br><p>Your tail functions like an extra limb and is capable of some precision tasks. You can wield and hold one extra hand’s worth of weapons and equipment with your tail, and you can use your tail to perform Interact actions. You tail is considered one pair of hands for the purposes of designating your active hands with the Switch Active Hands action.</p>",
-      "traits": "Ysoki, 3rd Party",
+      "traits": "Ratfolk, Ysoki, 3rd Party",
       "src": "SF2E Playtest",
       "databaseID": 1
     },
@@ -3786,7 +3786,7 @@
       "id": "2918c6d0-7bb0-4259-a40d-6fdaf08b8f27",
       "name": "Grandmother's Lore",
       "textDescription": "<p>You cleave close to Lao Shu Po’s teachings and aren’t afraid to lie, cheat, or steal to get what you desire. Thanks to your extra devotion, you gain the trained proficiency rank in Deception and Thievery. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You gain the Additional Lore general feat for Lao Shu Po Lore.</p><br><p><strong>Note:&nbsp;</strong>You will need to set Lao Shu Po Lore manually for Additional Lore.</p>",
-      "traits": "Ysoki, 3rd Party",
+      "traits": "Ratfolk, Ysoki, 3rd Party",
       "src": "SF2E Playtest",
       "databaseID": 1,
       "listCustomEffects": [
@@ -4578,7 +4578,7 @@
       "id": "77087c4b-7ef2-454a-9101-e05b44a801c8",
       "name": "Nimble Tail",
       "textDescription": "<p>You have an incredibly nimble tail that helps you balance in zero gravity; this could be a hereditary gift from your ancestors as they adapted to spaceflight or the result of personal augmentation. You can use your tail to Push Off while in zero-g. In addition, you ignore the clumsy and offguard penalties while untethered in zero gravity.</p>",
-      "traits": "Ysoki, 3rd Party",
+      "traits": "Ratfolk, Ysoki, 3rd Party",
       "src": "SF2E Playtest",
       "databaseID": 1
     },
@@ -4790,7 +4790,7 @@
         "77087c4b-7ef2-454a-9101-e05b44a801c8"
       ],
       "textDescription": "<p><strong>Prerequisites </strong>Nimble Tail</p><br><hr><br><p>Your tail functions like an extra limb and is capable of some precision tasks. You can wield and hold one extra hand’s worth of weapons and equipment with your tail, and you can use your tail to perform Interact actions. You tail is considered one pair of hands for the purposes of designating your active hands with the Switch Active Hands action.</p>",
-      "traits": "Ysoki, 3rd Party",
+      "traits": "Ratfolk, Ysoki, 3rd Party",
       "src": "SF2E Playtest",
       "databaseID": 1
     },
@@ -5469,7 +5469,7 @@
         "e8ef8bf8-0c80-4d8f-b9b9-8e9bc9c2d4e7||RATFOLK_Tunnel Rat"
       ],
       "textDescription": "<p><strong>Prerequisites </strong>shipborn ysoki heritage or tunnel ysoki heritage</p><br><hr><br><p>You use your size against larger foes, moving through them in a variety of ways to avoid notice and move undisturbed. As long as you are Small, you can end a successful Tumble Through action in a Medium or larger sized enemy’s space. The enemy must have appropriate limbs or otherwise leave you enough room for this maneuver, as determined by the GM. You could not, for example, occupy the space of an ooze that matches the full dimensions of the square. While you occupy an enemy’s space, that enemy is off-guard to you, and it treats its space as difficult terrain.</p>",
-      "traits": "Ysoki, 3rd Party",
+      "traits": "Ratfolk, Ysoki, 3rd Party",
       "src": "SF2E Playtest",
       "databaseID": 1
     },
@@ -5811,7 +5811,7 @@
       "id": "57f3ce1d-7305-44ca-b735-e9be7a35bf6e",
       "name": "Ysoki Lore",
       "textDescription": "<p>Years of experience among ysoki communities have made you nimble, and you’ve learned to run and hide when enemies threaten. You gain the trained proficiency rank in Acrobatics and Stealth. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also gain the Additional Lore general feat for Ysoki Lore.</p><p><b>Note: You will have to manually input Kasatha Lore for Additional Lore.</b></p>",
-      "traits": "Ysoki, 3rd Party",
+      "traits": "Ratfolk, Ysoki, 3rd Party",
       "src": "SF2E Playtest",
       "databaseID": 1,
       "timestamp": "1724827166089",
@@ -6428,7 +6428,7 @@
       "id": "03ba0d6a-24b6-43e6-a09c-33257941f0d4",
       "name": "Tunnel Ysoki",
       "textDescription": "<p>Your incredibly small bones allow you to easily compress your body and squeeze through gaps, whether it’s the space between walls to reach a severed data cable or the ductwork of a space station. You gain the Quick Squeeze feat, even if you aren’t trained in Acrobatics. Tight spaces not tight enough to require the Squeeze action aren’t difficult terrain for you.</p>",
-      "traits": "Ysoki, 3rd Party",
+      "traits": "Ratfolk, Ysoki, 3rd Party",
       "src": "SF2E Playtest",
       "databaseID": 1,
       "listCustomEffects": [
