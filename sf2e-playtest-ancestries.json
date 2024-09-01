@@ -1,6 +1,6 @@
 {
-  "customPackID": "118dae9d-2065-47e1-8412-beb7a89a9876",
-  "customPackName": "SF2E Playtest Ancestries",
+  "customPackID": "f84a2244-36e2-46b7-b81e-ce7e4ed9b9d6",
+  "customPackName": "SF2EPT Ancestries",
   "listCustomArmor": [
     {
       "databaseID": 1,
@@ -1656,19 +1656,6 @@
       "timestamp": "1724842335612"
     },
     {
-      "id": "c0343f6f-47ea-4711-ba3f-3042a1b4c892",
-      "name": "Basic Insectile Flight",
-      "level": 5,
-      "reqFeats": [
-        "98157480-74d7-473d-85ab-04f85fc9fc05"
-      ],
-      "textDescription": "<p><strong>Prerequisites </strong>winged shirren heritage&nbsp;</p><br><hr><br><p>You’ve developed usable wings that you can extend for brief periods of time, in order to fly. You gain the Unfurl Wings action.</p>",
-      "traits": "Shirren, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "timestamp": "1724894283346"
-    },
-    {
       "id": "6b65179c-ebaa-491b-b7b2-5d331a07e97a",
       "name": "Advanced Insectile Filght",
       "level": 9,
@@ -2207,573 +2194,6 @@
       "traits": "Vesk, 3rd Party",
       "src": "SF2E Playtest",
       "databaseID": 1
-    },
-    {
-      "id": "22828a7d-4ccd-4227-a66f-8ad266aa14b6",
-      "name": "Grandmother's Blessing",
-      "level": 13,
-      "textDescription": "<p><strong>Prerequisites </strong>worship Lao Shu Po</p><br><p>Lao Shu Po notices your devotion. You can shroud yourself in darkness, and when you pray, she may even deign to give you a morsel of information. You gain <em>darkness </em>and <em>read omens </em>as 4th-rank divine innate spells. You can cast each spell once per day. You can see through the darkness created by your own <em>darkness&nbsp;</em>spells without difficulty, as if you had greater darkvision.</p><br><p><strong>Note:&nbsp;</strong>I cannot change the spell rank in Pathbuilder, so you will need to note&nbsp;<em>darkness's&nbsp;</em>spell rank is listed as 2nd in Pathbuilder.</p>",
-      "traits": "Ysoki, Ratfolk, Uncommon, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "listCustomEffects": [
-        {
-          "proficiencyName": "Darkness",
-          "effectType": 9,
-          "bonusType": 1,
-          "bonusAmount": 2
-        },
-        {
-          "proficiencyName": "Read Omens",
-          "effectType": 9,
-          "bonusType": 1,
-          "bonusAmount": 4
-        }
-      ]
-    },
-    {
-      "id": "77087c4b-7ef2-454a-9101-e05b44a801c8",
-      "name": "Nimble Tail",
-      "textDescription": "<p>You have an incredibly nimble tail that helps you balance in zero gravity; this could be a hereditary gift from your ancestors as they adapted to spaceflight or the result of personal augmentation. You can use your tail to Push Off while in zero-g. In addition, you ignore the clumsy and offguard penalties while untethered in zero gravity.</p>",
-      "traits": "Ratfolk, Ysoki, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "8e4f5d75-d8f4-4f40-9d6a-5d8a8df802fa",
-      "name": "Explosive Surprise",
-      "level": 13,
-      "reqFeats": [
-        "RATFOLK_Cheek Pouches"
-      ],
-      "textDescription": "<p><strong>Prerequisites </strong>Cheek Pouches</p><br><hr><br><p>You have mastered the infamous ysoki martial art of spitting a live grenade from your mouth. It takes 10 minutes to safely prepare a grenade and store it in your cheek pouch. As a single action, you can draw and throw this specially prepared grenade using your mouth. You don’t need a free hand to do so.</p>",
-      "traits": "Ysoki, Ratfolk, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "5229017b-ab02-49fd-a228-dd3c4c970bd4",
-      "name": "Sulking Strike",
-      "level": 13,
-      "action": 0,
-      "reqFeats": [
-        "86e6ccbe-d955-405b-b1e8-caa66c757135"
-      ],
-      "textDescription": "<p><strong>Prerequisites </strong>Underfoot</p><br><p><strong>Trigger </strong>An enemy occupying the same space as you uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it’s using.</p><br><hr><br><p>You launch an attack from below. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn’t count toward your multiple attack penalty, and your multiple attack penalty doesn’t apply to this Strike.</p>",
-      "traits": "Ysoki, Ratfolk, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "2918c6d0-7bb0-4259-a40d-6fdaf08b8f27",
-      "name": "Grandmother's Lore",
-      "textDescription": "<p>You cleave close to Lao Shu Po’s teachings and aren’t afraid to lie, cheat, or steal to get what you desire. Thanks to your extra devotion, you gain the trained proficiency rank in Deception and Thievery. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You gain the Additional Lore general feat for Lao Shu Po Lore.</p><br><p><strong>Note:&nbsp;</strong>You will need to set Lao Shu Po Lore manually for Additional Lore.</p>",
-      "traits": "Ratfolk, Ysoki, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "listCustomEffects": [
-        {
-          "effectType": 14,
-          "string0": "GENERAL_Additional Lore",
-          "reference": "701c7d47-5c37-4afe-b723-8a8579437931"
-        }
-      ]
-    },
-    {
-      "id": "57f3ce1d-7305-44ca-b735-e9be7a35bf6e",
-      "name": "Ysoki Lore",
-      "textDescription": "<p>Years of experience among ysoki communities have made you nimble, and you’ve learned to run and hide when enemies threaten. You gain the trained proficiency rank in Acrobatics and Stealth. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also gain the Additional Lore general feat for Ysoki Lore.</p><p><b>Note: You will have to manually input Kasatha Lore for Additional Lore.</b></p>",
-      "traits": "Ratfolk, Ysoki, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "timestamp": "1724827166089",
-      "listCustomEffects": [
-        {
-          "effectType": 11,
-          "bonusAmount": 2
-        },
-        {
-          "proficiencyName": "Stealth",
-          "effectType": 11,
-          "bonusAmount": 2
-        },
-        {
-          "effectType": 14,
-          "string0": "GENERAL_Additional Lore",
-          "reference": "a08d022a-e4fb-4bac-968f-6fbec71c7432"
-        }
-      ]
-    },
-    {
-      "id": "86e6ccbe-d955-405b-b1e8-caa66c757135",
-      "name": "Underfoot",
-      "level": 9,
-      "reqFeats": [
-        "e8ef8bf8-0c80-4d8f-b9b9-8e9bc9c2d4e7||RATFOLK_Tunnel Rat"
-      ],
-      "textDescription": "<p><strong>Prerequisites </strong>shipborn ysoki heritage or tunnel ysoki heritage</p><br><hr><br><p>You use your size against larger foes, moving through them in a variety of ways to avoid notice and move undisturbed. As long as you are Small, you can end a successful Tumble Through action in a Medium or larger sized enemy’s space. The enemy must have appropriate limbs or otherwise leave you enough room for this maneuver, as determined by the GM. You could not, for example, occupy the space of an ooze that matches the full dimensions of the square. While you occupy an enemy’s space, that enemy is off-guard to you, and it treats its space as difficult terrain.</p>",
-      "traits": "Ratfolk, Ysoki, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "ba50c832-481c-4cc6-ab22-3dfc5e15ec4a",
-      "name": "Prehensile Tail",
-      "level": 5,
-      "reqFeats": [
-        "77087c4b-7ef2-454a-9101-e05b44a801c8"
-      ],
-      "textDescription": "<p><strong>Prerequisites </strong>Nimble Tail</p><br><hr><br><p>Your tail functions like an extra limb and is capable of some precision tasks. You can wield and hold one extra hand’s worth of weapons and equipment with your tail, and you can use your tail to perform Interact actions. You tail is considered one pair of hands for the purposes of designating your active hands with the Switch Active Hands action.</p>",
-      "traits": "Ratfolk, Ysoki, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "4c0bfeab-e6c5-446f-b63b-76d52e714507",
-      "name": "Grandmother's Chosen",
-      "level": 17,
-      "textDescription": "<p><strong>Prerequisites </strong>worship Lao Shu Po</p><br><hr><br><p>Your steadfast faith in Lao Shu Po has her attention. You gain <em>divine decree</em> as a 7th-rank divine innate spell once per day. Additionally, once per month, whenever you would die, your body instead transforms into a swarm of dispersing rats. 1d6 days later, these rats regather in a safe space of the GM’s choosing (a site dedicated to Lao Shu Po, if possible), reforming your body. You are returned to life at your maximum Hit Points.</p>",
-      "traits": "Ratfolk, Ysoki, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "listCustomEffects": [
-        {
-          "proficiencyName": "Divine Decree",
-          "effectType": 9,
-          "bonusType": 1,
-          "bonusAmount": 7
-        }
-      ]
-    },
-    {
-      "id": "99835924-75ec-4e74-9e37-df8c1af8e68a",
-      "name": "Slip from Sight",
-      "level": 17,
-      "action": -1,
-      "textDescription": "<p><strong>Prerequisites </strong>legendary Stealth</p><br><p><strong>Frequency </strong>once per hour</p><br><p><strong>Trigger </strong>You successfully use Stealth to Hide and become hidden from all your current foes, or you successfully use Stealth to Sneak and become undetected to all your current foes.</p><br><hr><br><p>Whether through the use of technology, magical talent, the blessing of Lao Shu Po, or uncanny luck, you slip from sight completely, becoming invisible for 1 minute, or until you take a hostile action.</p>",
-      "traits": "Ysoki, Ratfolk, 3rd Party",
-      "src": "SF2E Playtest",
-      "hashMapRequiredProficiences": {
-        "Stealth": 8
-      },
-      "databaseID": 1
-    },
-    {
-      "id": "0955121d-9ca0-449b-9a57-f65f0541f079",
-      "name": "Augmented",
-      "textDescription": "<p>You embrace scientific and technological advances, frequently integrating cutting-edge augmentations into your body in order to improve yourself. Choose one common augmentation with an item level of 1 or less. You begin with this augmentation already installed in your body (you don’t need to pay the credits to purchase this starting augmentation). Increase the maximum number of augmentations you can have installed by one.</p>",
-      "traits": "Human, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "timestamp": "1724825699545"
-    },
-    {
-      "id": "d367798b-dcda-4f08-8f9b-bc818a8f3829",
-      "name": "Baleful Aura",
-      "level": 17,
-      "reqFeats": [
-        "8139e3c6-eaae-45be-ac44-76ec49cab1f5"
-      ],
-      "textDescription": "<p><strong>Prequisites:</strong> Baleful Gaze</p><hr><p>You’ve learned to unleash the anger and malice built up over the course of your life and restless death against multiple foes at once, creating a potent aura around yourself. You can choose to use Baleful Gaze as a 2-action activity, rather than 1. When you do, Baleful Gaze gains the divine trait, loses the visual trait, and affects each living creature in a 30-foot emanation, rather than a single living creature.</p>",
-      "traits": "Borai, Versatile, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "8139e3c6-eaae-45be-ac44-76ec49cab1f5",
-      "name": "Baleful Gaze",
-      "action": 1,
-      "textDescription": "<p><strong>Frequency</strong>once per minute</p><br><hr><br><p>You have an ominous presence that unnerves the living. You’ve learned to harness this sinister aura to your own advantage and can scare your foes with a focused glance. Focus your ill intent at one living creature within 30 feet. The target must&nbsp;succeed at a Will save against the higher of your class DC or spell DC, or become frightened 1 (frightened 2 on a critical failure) and be stupefied 1 as long as the frightened condition lasts. Once you’ve used Baleful Gaze against a creature, it’s temporarily immune for 24 hours.</p>",
-      "traits": "Borai, Versatile, Concentrate, Emotion, Fear, Mental, Visual, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "2d5938ed-1bf5-4ec4-bd6b-c996c1209ae1",
-      "name": "Borai Lore",
-      "textDescription": "<p>Since your resurrection, you’ve learned a lot about yourself, your place in the cycle of souls, and other undead. You become trained in Intimidation and Religion. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice.</p><br><p>You gain the Additional Lore general feat for Borai Lore.</p><p><strong>Note:&nbsp;</strong>Due to the limitations of Pathbuilder, you will need to manually input Barathu Lore for the Additional Lore feat.</p>",
-      "traits": "Borai, Versatile, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "timestamp": "1724816506502",
-      "listCustomEffects": [
-        {
-          "proficiencyName": "Intimidation",
-          "effectType": 11,
-          "bonusAmount": 2
-        },
-        {
-          "proficiencyName": "Religion",
-          "effectType": 11,
-          "bonusAmount": 2
-        },
-        {
-          "effectType": 14,
-          "string0": "GENERAL_Additional Lore",
-          "reference": "17378440-5933-41b8-a61e-bfae009bf96e"
-        }
-      ]
-    },
-    {
-      "id": "ee515c73-c97f-40ef-8245-a4e173596742",
-      "name": "Confident Actualization",
-      "action": -1,
-      "textDescription": "<p><strong>Frequency </strong>once per day</p><br><p><strong>Trigger </strong>You are about to attempt a saving throw or skill check</p><br><hr><br><p>Your utter confidence in your abilities helps you actualize your ambitions and push yourself to reach your desired goals. Roll the triggering check or save twice and use the better result.</p>",
-      "traits": "Human, Fortune, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "timestamp": "1724825848801"
-    },
-    {
-      "id": "236efdda-8bb9-4c47-8783-e4b01c67dc59",
-      "name": "Cosmic Traveler",
-      "level": 9,
-      "textDescription": "<p>The Drift is your true home, and you can survive within it indefinitely. While you’re in the Drift, you gain the cosmic trait and you don’t need to eat or drink. While you’re in the Drift and a vacuum, you gain a fly Speed equal to your land Speed.</p>",
-      "traits": "Prismeni, Versatile, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "8c54403b-512f-4396-883f-e413c15a2208",
-      "name": "Data Jockey",
-      "textDescription": "<p>Like spectra, you can easily send data to other technological devices. You can cast the <em>implant data</em> cantrip as a divine innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.<br><strong>Note:&nbsp;</strong>The heightening will need to be handled manually.</p>",
-      "traits": "Prismeni, Versatile, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "listCustomEffects": [
-        {
-          "proficiencyName": "e852590e-729c-4a47-854c-eca7567b6082",
-          "effectType": 9
-        }
-      ]
-    },
-    {
-      "id": "df8009c9-f48e-468e-9964-9d3a86865802",
-      "name": "Death-Touched Caster (Vitality Lash)",
-      "textDescription": "<p>You exist on the boundaries between life and death, and you can channel your own imbalanced spiritual essence into magical spells. You can cast <em>vitality lash</em> as a divine innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</p><p><strong>Note:</strong> The heightening will not be applied automatically.</p>",
-      "traits": "Borai, Versatile, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "listCustomEffects": [
-        {
-          "proficiencyName": "Vitality Lash",
-          "effectType": 9,
-          "bonusType": 1
-        }
-      ]
-    },
-    {
-      "id": "b12bcca8-8de2-41b5-9d63-41ca9ddd3c36",
-      "name": "Death-Touched Caster (Void Warp)",
-      "textDescription": "<p>You exist on the boundaries between life and death, and you can channel your own imbalanced spiritual essence into magical spells. You can cast <em>void warp</em> as a divine innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</p><p><strong>Note:</strong> The heightening will not be applied automatically.</p>",
-      "traits": "Borai, Versatile, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "listCustomEffects": [
-        {
-          "proficiencyName": "Void Warp",
-          "effectType": 9,
-          "bonusType": 1
-        }
-      ]
-    },
-    {
-      "id": "ae181679-fdbf-4ad3-9e68-388285ecef19",
-      "name": "Deathly Constitution",
-      "level": 5,
-      "textDescription": "Thanks to your life-altering brush with death, your living body is better protected against the weaknesses of the flesh. You gain a +1 circumstance bonus to Fortitude saves against disease and poison.",
-      "traits": "Borai, Versatile, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "bb81b26d-48ef-4883-897f-3585a2ae99c2",
-      "name": "Drift Hop",
-      "level": 5,
-      "action": 1,
-      "textDescription": "<p><strong>Frequency&nbsp;</strong>once per day</p><br><hr><br><p>You travel across the battlefield via the Drift. You teleport up to a distance equal to your Speed within your line of sight. If you’re in the Drift, the distance you can teleport is doubled.</p>",
-      "traits": "Prismeni, Versatile, Teleportation, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "af10f0f6-fa61-4c91-b743-59aab5a13f2f",
-      "name": "Drift Slip",
-      "level": 13,
-      "action": 0,
-      "textDescription": "<p><strong>Frequency</strong>once per minute</p><br><p><strong>Trigger</strong>An enemy’s Strike would hit you and you weren’t already concealed, hidden, or undetected to that enemy.</p><br><hr><br><p>You momentarily slip into the Drift, becoming concealed against the triggering Strike. If the flat check for concealment fails, the Strike misses you. After resolving the triggering Strike, you reemerge from the Drift in an adjacent, unoccupied space.</p>",
-      "traits": "Prismeni, Versatile, Teleportation, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "e3be3b62-4bff-4997-adb1-222415080270",
-      "name": "Drift Strike",
-      "level": 17,
-      "action": 1,
-      "textDescription": "<p><strong>Frequency </strong>once every 10 minutes</p><br><p><strong>Requirements </strong>Your last action was a successful critical hit melee Strike against a creature.&nbsp;</p><br><hr><br><p>You launch the triggering creature into the Drift to reposition it across the battlefield. The creature is teleported to a location of your choice up to a distance of 20 feet from its starting location and within your line of sight. If you’re in the Drift, the distance you can teleport the target is doubled. The creature must be able to fit in its new location, and its new location must be unoccupied. The creature can attempt a Will save.</p><br><p><strong>Critical Success </strong>The target is unaffected.</p><br><p><strong>Success </strong>The distance you can teleport the target is halved, and the target can’t be moved to a location that’s hazardous or would result in a fall.</p><br><p><strong>Failure </strong>You teleport the target the noted distance.</p><br><p><strong>Critical Failure </strong>The distance you can teleport the target is doubled.</p>",
-      "traits": "Prismeni, Versatile, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "de493ce4-ddda-47bb-bf96-5816e5f0012a",
-      "name": "Drift-Touched",
-      "action": 1,
-      "textDescription": "<p><strong>Frequency </strong>once per day</p><br><hr><br><p>You were born in the Drift and now, even after leaving, the plane is always a part of you. With a thought, you seize a fragment of the Drift and temporarily transplant it onto the battlefield as an intangible barrier of colorful light. This shimmering field appears within 30 feet and is straight and vertical, stretching up to 10 feet long and 10 feet high. The barrier grants concealment to creatures targeted through it, and it sheds colorful bright light for 10 feet on each side and dim light for the next 10 feet. You can ignore any concealment granted by the barrier. The barrier lasts for 5 rounds. At 13th level, the barrier instead grants standard cover.</p>",
-      "traits": "Prismeni, Versatile, Lineage, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "a3e90e6a-1bcf-4faf-a106-c6f017e5627c",
-      "name": "Electrical Shielding",
-      "level": 5,
-      "textDescription": "Your body is insulated from electrical attacks. You gain electricity resistance equal to half your level (minimum 1). Additionally, you gain the Redirect Current reaction.",
-      "traits": "Prismeni, Versatile, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "listCustomEffects": [
-        {
-          "proficiencyName": "Electricity",
-          "effectType": 12,
-          "bonusType": 1
-        },
-        {
-          "effectType": 13,
-          "string0": "eca621f1-0be3-44e2-8358-642e2c972d24",
-          "int0": 1
-        }
-      ]
-    },
-    {
-      "id": "660c1e93-5e43-4f34-a222-46322f282dc5",
-      "name": "Encode Presence",
-      "level": 13,
-      "action": 2,
-      "textDescription": "<p><strong>Frequency</strong>once per hour</p><br><hr><br><p>You instinctively encode your presence, obscuring your identity and scrambling your visual appearance to&nbsp;technological visual sensors. You become concealed to all technological visual sensors, such as security cameras, ocular cybernetic augmentations, and the visual processors of technological constructs, for 1 minute. As the nature of this effect still leaves your location obvious, you can’t use this concealment to Hide or Sneak.</p>",
-      "traits": "Prismeni, Versatile, Visual, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "faa69a9f-89f2-4463-9ec1-39140bd578ee",
-      "name": "Etheric",
-      "textDescription": "<p>You became a borai through a botched resurrection attempt— perhaps a magic spell disrupted, a religious rite gone awry, or faulty technology. Your soul is loosely tethered to your body, allowing you to temporarily shield your living form from the ravages of the void. You gain the Soul Shield reaction.</p>",
-      "traits": "Borai, Versatile, Lineage, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "listCustomEffects": [
-        {
-          "effectType": 13,
-          "string0": "264d9fab-9637-4e01-865e-1c7f44c5f762",
-          "int0": 1
-        }
-      ]
-    },
-    {
-      "id": "521a2e2f-0ce5-49fe-ae7b-0a825c57b4d8",
-      "name": "Frequent Drifter",
-      "level": 13,
-      "textDescription": "<p><strong>Prerequisites </strong>Drift Hop</p><br><hr><br><p>Your connection to the Drift has strengthened, allowing you to travel through it more often. The frequency of Drift Hop changes to once per hour.</p>",
-      "traits": "Prismeni, Versatile, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "d3b2fa78-38ba-406b-974c-f67611b6368d",
-      "name": "Galactic Explorer",
-      "level": 5,
-      "textDescription": "<p>Whether you’re dodging shifting asteroids or emergent solar flares, exploring an undiscovered star system, or flying through a dangerous nebula, you’re a star-faring pilot at the forefront of galactic exploration. You always count a success as a critical success when using Piloting to Navigate or Plot Course, and you reduce the travel time it takes to fly to a destination by one day plus one day for every four days of travel (minimum 1).</p>",
-      "traits": "Human, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "timestamp": "1724825973027"
-    },
-    {
-      "id": "b67ac792-6ecd-4a11-ad13-20d0eb60d86c",
-      "name": "Headstrong",
-      "textDescription": "<p>You became a borai through your own stubborn willfulness. When you died, you refused to accept your own defeat and clung to your corpse, forcing your soul back into your body and giving you life along with it. You gain a +1 circumstance bonus to Will saving throws against fear and effects that would make you confused or controlled, and a +1 circumstance bonus to your Will DC against attempts to Demoralize you.</p>",
-      "traits": "Borai, Versatile, Lineage, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "921f0d36-48bd-4971-a0f5-7493d6f18f71",
-      "name": "Inner Wellspring",
-      "level": 13,
-      "action": 1,
-      "textDescription": "<p><strong>Prerequisites </strong>pool of Focus Points</p><br><p><strong>Frequency </strong>once per day</p><br><hr><br><p>In a monumental feat of mental fortitude, you dig deep and draw on the memories of your lost ancestral homeworld of Golarion, tapping into inner reserves of power to pull off just one more miracle. You recover 1 Focus Point.</p>",
-      "traits": "Human, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "timestamp": "1724826089135"
-    },
-    {
-      "id": "29e2a2ef-6b51-4a97-a7d4-9837f04e1ebf",
-      "name": "Intuitive Talent",
-      "level": 13,
-      "action": -1,
-      "textDescription": "<p><strong>Frequency </strong>once per hour</p><br><hr><br><p>You enjoy embracing new experiences and have a knack for picking up new skills and talents, sometimes over the course of countless lifetimes, as your semi-dead nature grants you a wider perspective. Choose a skill that you’re untrained in. Until the beginning of your next turn, you become trained in the chosen skill.</p>",
-      "traits": "Borai, Versatile, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "8543bc17-7e73-435e-9158-6b3b877ca01d",
-      "name": "Living Battery",
-      "textDescription": "<p>Your body produces an overabundance of electrical energy, which you can emit as a blast of lightning or to power technological devices. You can cast the <em>electric arc </em>cantrip as a divine innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</p><br><p>When you cast electric arc, the spell’s targets become “1 or 2 creatures or tech items (in any combination).” If you target a tech item, that item isn’t damaged. Instead, it gains one of the following benefits.</p><br><ul><br><li>If the item is a battery, the battery regains 2 charges&nbsp;per spell rank.&nbsp;</li><br><li>If the item has a usage and is powered by a battery,&nbsp;that item’s usage is reduced to 0 for 1 round per spell&nbsp;rank.</li><br><li>If the item needs a continuous external power source&nbsp;(such as an item plugged into an electrical outlet or&nbsp;power grid) and is currently off or lacking a power&nbsp;source, that item turns on for 1 round per spell rank.</li><br></ul><p><b>Note:</b> Pathbuilder does not allow changing the spell's tradition, so it is listed as an arcane innate cantrip, not a divine one. Also, heightening won't be handled automatically.</p>",
-      "traits": "Prismeni, Versatile, Concentration, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "listCustomEffects": [
-        {
-          "proficiencyName": "Electric Arc",
-          "effectType": 9
-        }
-      ]
-    },
-    {
-      "id": "f6ec22ad-36da-4771-a27b-a25b2f3dc9dc",
-      "name": "Metabolize Soul",
-      "level": 13,
-      "action": 1,
-      "textDescription": "<p><strong>Frequency </strong>once per day</p><br><hr><br><p>You force your body to metabolize a portion of your animating soul to rapidly heal your wounds and prolong your life. You regain 3d8 Hit Points plus a number of additional Hit Points equal to your level.</p>",
-      "traits": "Borai, Versatile, Concentrate, Healing, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "6c1d64a1-1d8f-4cc4-affb-824367e7cf1b",
-      "name": "Necrotized",
-      "textDescription": "<p>You became a borai intentionally, through necromantic experimentation conducted by yourself before your death or another individual after your death. This experimentation has strengthened your defenses against death but has also made you look more like a corpse than a living being. You gain the Diehard feat and death effects no longer kill you if they reduce you to 0 Hit Points. This keeps you from being automatically killed or from having your dying value automatically decrease, but it doesn’t make you immune to other parts of the spell or effect. For example, you can still take mental damage and become frightened by a <em>vision of death</em>, you just don’t instantly die from it.</p>",
-      "traits": "Borai, Versatile, Lineage, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "listCustomEffects": [
-        {
-          "effectType": 14,
-          "string0": "GENERAL_Diehard",
-          "reference": "35e76fc4-32ee-4f34-8034-7328d81a5e63"
-        }
-      ]
-    },
-    {
-      "id": "de4c2983-9104-487c-bcaa-d4bf752c0e1f",
-      "name": "One with the Void",
-      "level": 5,
-      "textDescription": "The ichor pulsing through your veins is more liquefied void energy than blood, and it protects your flesh from similar substances. You have void resistance equal to half your level.",
-      "traits": "Borai, Versatile, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "listCustomEffects": [
-        {
-          "proficiencyName": "Void",
-          "effectType": 12,
-          "bonusType": 1
-        }
-      ]
-    },
-    {
-      "id": "e2cd7a7c-7a1b-4764-8e62-1eaf48827b49",
-      "name": "Only Slightly Dead",
-      "textDescription": "<p>Your living body is flush with vitality, which easily hides your ichor-filled veins from sight. You don’t have to attempt Deception checks against a creature’s Perception DC to successfully Impersonate yourself as a living member of your ancestry or hide your borai heritage, nor do you require a disguise kit for such Impersonations. This is a non-magical effect that doesn’t protect against detection, revelation, or scrying effects. Additionally, when a creature actively attempts a Perception check against you, you gain a +4 circumstance bonus to your Deception DC, but only for the purposes of seeing through your disguise when you’re Impersonating yourself as a living member of your ancestry or otherwise attempting to hide your borai heritage.</p>",
-      "traits": "Borai, Versatile, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "592cb569-4d24-4ccd-9649-6dcba586b6d6",
-      "name": "Persistent Confidence",
-      "level": 17,
-      "reqFeats": [
-        "ee515c73-c97f-40ef-8245-a4e173596742"
-      ],
-      "textDescription": "<p><strong>Requirements </strong>Confident Actualization</p><br><hr><br><p>Even if nobody believes in you, you believe in yourself. You can use Confident Actualization once per hour, rather than once per day.</p>",
-      "traits": "Human, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "timestamp": "1724826318834"
-    },
-    {
-      "id": "06026565-a792-4e95-b7e5-2c3c2fb48ee7",
-      "name": "Pharmaceutical Crafting",
-      "textDescription": "<p>You can Craft medicinal items and poisons, though some have other requirements. When you select this feat, you gain formulas for four common pharmaceutical items of 2nd level or lower.</p>",
-      "traits": "General, Skill, 3rd Party",
-      "src": "SF2E Playtest",
-      "hashMapRequiredProficiences": {
-        "Crafting": 2
-      },
-      "databaseID": 1,
-      "timestamp": "1724815524624"
-    },
-    {
-      "id": "dc80e4f9-63aa-4167-95b1-8988066a0806",
-      "name": "Phreaker",
-      "textDescription": "<p><strong>Prerequisites:&nbsp;</strong>trained in Computers</p><br><p><span>You’ve learned how to hack using traditional methods that are more convenient but often less secure, such as calling a data center’s automatic help line and entering a unique tone to access a connected server. You can use Computers to Disable a Device or Hack a system using any computer, comm unit, or terminal instead of a hacking toolkit (page&nbsp;<span>212). If you’re an expert in Computers and the equipment you use is at least 3rd level, you gain a +1 item bonus to Disable a Device or Hack.</span><br> </span></p><br><br>Note: Pathbuilder does not enable adding custom skills, so you will have to manually note the bonus.",
-      "traits": "General, Skill, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "timestamp": "1724812664574"
-    },
-    {
-      "id": "b415f14c-8094-4784-9b94-42533cb980c7",
-      "name": "Prismeni Lore",
-      "textDescription": "<p>As someone touched by the Drift, you’ve learned how to remain hidden and navigate the wider cosmos. You become trained in Piloting and Stealth. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice.</p><br><p>You also gain the Additional Lore general feat for Prismeni Lore.</p><br><p><strong>Note:&nbsp;</strong>Pathbuilder does not allow the creation of custom skills, so Piloting will not be reflected within Pathbuilder. You will need to set&nbsp;Prismeni Lore for Additional Lore manually.</p>",
-      "traits": "Prismeni, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "listCustomEffects": [
-        {
-          "effectType": 14,
-          "string0": "GENERAL_Additional Lore",
-          "reference": "dfbde808-fcc5-4a72-b671-7b257fddad6b"
-        }
-      ]
-    },
-    {
-      "id": "041dfce3-92dd-4703-9bac-6aeb64ad5f25",
-      "name": "Remote Access",
-      "level": 9,
-      "textDescription": "<p>You can communicate wirelessly with technological devices within 10 feet, allowing you to attempt Computers checks on these devices without a user interface or hacking kit. If you can already attempt Computers checks at range, you increase the distance that you can do so by an additional 10 feet.</p>",
-      "traits": "Prismeni, Versatile, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "1ba3862a-993a-406b-a994-1cd65205e61d",
-      "name": "Resonant Weapon",
-      "level": 9,
-      "action": 1,
-      "textDescription": "<p>You release a pulse of spiritual energy into one weapon you’re holding, making it resonate with immaterial soul stuff. Until the beginning of your next turn, your weapon gains the effects of the <em>ghost killer</em> weapon fusion (page 192). At 17th level, Strikes with the weapon deal 1d6 additional spirit damage.</p>",
-      "traits": "Borai, Versatile, Divine, Spirit, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "86c68240-797d-4801-acdc-192cc256a625",
-      "name": "Revitalized by the Drift",
-      "level": 9,
-      "textDescription": "<p>The Drift revitalizes your spirit and restores your vitality, healing your wounds. If you rest for 10 minutes while within the Drift, you gain Hit Points equal to your Constitution modifier × your level. This is cumulative with any healing you receive from Treat Wounds.</p><br><p>Once per hour, you can focus or meditate on your inherent connection to the Drift. This is a 10-minute activity that has the concentrate and exploration traits. When you do, you are treated as if you had rested for 10 minutes while in the Drift, save that the number of Hit Points you regain from this feat is halved.</p>",
-      "traits": "Prismeni, Versatile, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1
-    },
-    {
-      "id": "28c10844-2e11-4139-97a4-3da6b6eb6485",
-      "name": "Scramble Tech",
-      "level": 13,
-      "textDescription": "<p>With a thought, you can infect a technological creature or device with a short-lived virus, causing the object to glitch and malfunction. You gain <em>discharge </em>as a 3rd-rank divine innate spell. You can cast this spell twice per day.</p><p><b>Note:</b> Pathbuilder doesn't allow changing the tradition for innate spells, so it appears as an arcane spell.</p>",
-      "traits": "Prismeni, Versatile, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "listCustomEffects": [
-        {
-          "proficiencyName": "9c68827b-dcf7-4afc-a957-b03c0961fba4",
-          "effectType": 9,
-          "bonusAmount": 3
-        }
-      ]
     },
     {
       "id": "d4e07c53-e1c0-4010-93f8-2daf3e9b2414",
@@ -3786,14 +3206,14 @@
       "id": "2918c6d0-7bb0-4259-a40d-6fdaf08b8f27",
       "name": "Grandmother's Lore",
       "textDescription": "<p>You cleave close to Lao Shu Po’s teachings and aren’t afraid to lie, cheat, or steal to get what you desire. Thanks to your extra devotion, you gain the trained proficiency rank in Deception and Thievery. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You gain the Additional Lore general feat for Lao Shu Po Lore.</p><br><p><strong>Note:&nbsp;</strong>You will need to set Lao Shu Po Lore manually for Additional Lore.</p>",
-      "traits": "Ratfolk, Ysoki, 3rd Party",
+      "traits": "Ysoki, 3rd Party, Ratfolk",
       "src": "SF2E Playtest",
       "databaseID": 1,
       "listCustomEffects": [
         {
           "effectType": 14,
           "string0": "GENERAL_Additional Lore",
-          "reference": "701c7d47-5c37-4afe-b723-8a8579437931"
+          "reference": "66fd0a76-29b0-4d83-b024-67945b550200"
         }
       ]
     },
@@ -5828,7 +5248,27 @@
         {
           "effectType": 14,
           "string0": "GENERAL_Additional Lore",
-          "reference": "a08d022a-e4fb-4bac-968f-6fbec71c7432"
+          "reference": "b9733485-4a94-4952-9624-44ab7ea192e5"
+        }
+      ]
+    },
+    {
+      "id": "c0343f6f-47ea-4711-ba3f-3042a1b4c892",
+      "name": "Basic Insectile Flight",
+      "level": 5,
+      "reqFeats": [
+        "98157480-74d7-473d-85ab-04f85fc9fc05"
+      ],
+      "textDescription": "<p><strong>Prerequisites </strong>winged shirren heritage&nbsp;</p><br><hr><br><p>You’ve developed usable wings that you can extend for brief periods of time, in order to fly. You gain the Unfurl Wings action.</p>",
+      "traits": "Shirren, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724894283346",
+      "listCustomEffects": [
+        {
+          "effectType": 13,
+          "string0": "c81ddce3-1165-4972-bb56-28f868b06584",
+          "int0": 1
         }
       ]
     }
@@ -6402,12 +5842,20 @@
       ]
     },
     {
-      "id": "e8ef8bf8-0c80-4d8f-b9b9-8e9bc9c2d4e7",
-      "name": "Shipborn Ysoki",
-      "textDescription": "<p>You were born aboard a starship, inside a space station’s access corridors, or another similar environment. You gain the trained proficiency rank in Piloting. If you would automatically become trained in Piloting (from your background or class, for example), you become trained in another skill of your choice. If you get a success on a Piloting check to Navigate or Plot Course, you get a critical success instead.</p><br><p>You adapted to maneuvering in close quarters. You gain a +1 circumstance bonus to Acrobatics checks to Tumble Through the spaces of Medium or larger enemies, and the presence of an enemy doesn’t make the squares difficult terrain</p>",
-      "traits": "Ysoki, 3rd Party, Ratfolk",
+      "id": "4ed8ad54-e0af-48c3-9f78-912a89df8111",
+      "name": "Akitonian",
+      "textDescription": "<p>You (or one of your ancestors) traveled to the Pact Worlds on the Idari and settled on Akiton. Akiton’s significantly lower gravity grants you an advantage in the fun and practical art of leaping, and you likely revel in the many rituals surrounding the desert world’s popular sports. You gain the Quick Jump feat and don’t treat sand as uneven ground.</p>",
+      "traits": "Kasatha, 3rd Party",
       "src": "SF2E Playtest",
-      "databaseID": 1
+      "databaseID": 1,
+      "timestamp": "1724826710480",
+      "listCustomEffects": [
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Quick Jump",
+          "reference": "1fb568f0-938b-444b-94c1-07245d58ab1e"
+        }
+      ]
     },
     {
       "id": "73f439fa-8afd-4a09-af75-054d68da28ca",
@@ -6425,21 +5873,6 @@
       ]
     },
     {
-      "id": "03ba0d6a-24b6-43e6-a09c-33257941f0d4",
-      "name": "Tunnel Ysoki",
-      "textDescription": "<p>Your incredibly small bones allow you to easily compress your body and squeeze through gaps, whether it’s the space between walls to reach a severed data cable or the ductwork of a space station. You gain the Quick Squeeze feat, even if you aren’t trained in Acrobatics. Tight spaces not tight enough to require the Squeeze action aren’t difficult terrain for you.</p>",
-      "traits": "Ratfolk, Ysoki, 3rd Party",
-      "src": "SF2E Playtest",
-      "databaseID": 1,
-      "listCustomEffects": [
-        {
-          "effectType": 14,
-          "string0": "GENERAL_Quick Squeeze",
-          "reference": "8d28f2be-2c18-40ef-babd-f7ac9f55c37a"
-        }
-      ]
-    },
-    {
       "id": "74c982e6-62c4-4adf-aec7-faff31be3431",
       "name": "Akitonian Ysoki (Untrained in Crafting)",
       "textDescription": "<p>You or your ancestors were born on Akiton, where you grew up scrapping crashed starships or combing junk heaps for treasures. You can gain the trained proficiency rank in Crafting and can use Crafting instead of Thievery to Disable a Device.</p>",
@@ -6451,6 +5884,94 @@
           "proficiencyName": "Crafting",
           "effectType": 11,
           "bonusAmount": 2
+        }
+      ]
+    },
+    {
+      "id": "8892f86c-9b69-4a3b-8bf9-b9e1c4ee8a2e",
+      "name": "Ancient Android: Artisan",
+      "textDescription": "<p><span>Your body was originally designed to create works of art or complex tools, or to maintain advanced machinery. You become trained in Crafting (or another skill if you’re already trained in Crafting), and you gain the Specialty Crafting skill feat in a specialty of your choice.</span></p>",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814649345",
+      "listCustomEffects": [
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Specialty Crafting",
+          "reference": "4b64457e-ddf9-481d-ab8b-ae5381e2d718"
+        },
+        {
+          "proficiencyName": "Crafting",
+          "effectType": 11,
+          "bonusAmount": 2
+        }
+      ]
+    },
+    {
+      "id": "93f16648-0c22-454b-be27-f8334fc36f83",
+      "name": "Ancient Android: Laborer",
+      "textDescription": "Your body is adapted to endure physical hardships<br>or perform hard labor for long periods of time. You become<br>trained in Athletics, and you gain the Hefty Hauler skill feat.",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814659354",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Athletics",
+          "effectType": 11,
+          "bonusAmount": 2
+        },
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Hefty Hauler",
+          "reference": "603fcc1d-fc40-460a-b7ad-1e3573b319b0"
+        }
+      ]
+    },
+    {
+      "id": "795fd29d-d662-4914-8cb5-56ad6828164a",
+      "name": "Ancient Android: Polyglot",
+      "textDescription": "You were preprogrammed with a multitude of<br>linguistic proficiencies, likely to act as a translator. You learn two new languages, chosen from common languages and any uncommon languages you have access to. These languages take the same form (signed or spoken) as your other languages. If you select the Multilingual feat, you learn three new languages instead of two.",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814668184"
+    },
+    {
+      "id": "d4bdee8e-592f-4573-95dc-d01d33f3198d",
+      "name": "Ancient Android: Warrior",
+      "textDescription": "Your body was originally forged for combat, likely created to function as a security officer or soldier. Your synthetic and organic components are optimized for battle, and you possess intrinsic tactical ability regardless of your current disposition. You’re trained in all simple and martial weapons.",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814676500",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Simple Weapons",
+          "effectType": 11,
+          "bonusAmount": 2
+        },
+        {
+          "proficiencyName": "Martial Weapons",
+          "effectType": 11,
+          "bonusAmount": 2
+        }
+      ]
+    },
+    {
+      "id": "2502880b-4e19-42dd-b3e1-87ac1e7807e8",
+      "name": "Artificial Scion",
+      "textDescription": "Your body wasn’t created in the image of a biological creature; a powerful artificial intelligence created you to interface with other machines. Your physiology is nearly identical to other androids, but uncanny details give away your non-standard origins (for example, you might have impossibly symmetrical features, extra fingers, or double pupils). You become trained in Computers, and you gain the Phreaker skill feat.",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814685454",
+      "listCustomEffects": [
+        {
+          "effectType": 14,
+          "string0": "dc80e4f9-63aa-4167-95b1-8988066a0806",
+          "reference": "2493c9e0-ed63-47eb-a786-606f675032b2"
         }
       ]
     },
@@ -6472,6 +5993,127 @@
       "databaseID": 1
     },
     {
+      "id": "d52f0cb9-f065-4e05-923c-e3d8e8a9093d",
+      "name": "Briskwander Vesk",
+      "textDescription": "You come from a line of vesk who were constantly on the move. Your Speed increases by 5 feet.",
+      "traits": "Vesk, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "effectType": 1,
+          "bonusType": 3,
+          "bonusAmount": 5
+        }
+      ]
+    },
+    {
+      "id": "e501679b-92ed-4ad2-93c7-771126db3026",
+      "name": "Courtier Shirren",
+      "textDescription": "<p>Your telepathy is stronger than most shirrens’, allowing you combine physical, verbal, and telepathic communication to better articulate your messages. You can transmit emotions alongside your messages whenever you use limited telepathy. In addition, when a creature communicates with you using limited telepathy or telepathy, you gain a +2 circumstance bonus to Perception checks to Sense Motive against that creature.</p>",
+      "traits": "Shirren, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724841538520"
+    },
+    {
+      "id": "f0f5d2c5-dd8d-4768-a7b0-a2f0bf0ef454",
+      "name": "Damaya Lashunta",
+      "textDescription": "<p>You’ve chosen the adaptive genetics that lead to becoming a damaya. You may be taller than other lashuntas and are likely encouraged to pursue work as a scholar or politician. You gain an attribute boost to Intelligence and an attribute flaw to Constitution, but the free ancestry boost cannot also be Intelligence. You gain the trained proficiency in Diplomacy. If you would automatically become trained in Diplomacy (from your background or class, for example), you become trained in another skill of your choice. You gain the Additional Lore feat.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724836877054",
+      "listCustomEffects": [
+        {
+          "effectType": 21,
+          "bonusAmount": 1,
+          "casterAbilityRef": 3
+        },
+        {
+          "effectType": 21,
+          "bonusAmount": -1,
+          "casterAbilityRef": 2
+        },
+        {
+          "proficiencyName": "Diplomacy",
+          "effectType": 11,
+          "bonusAmount": 2
+        },
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Additional Lore",
+          "reference": "3f1487c3-14ee-4eb6-af16-a0b3e34fe108"
+        }
+      ]
+    },
+    {
+      "id": "8e5d4168-7b73-4b10-b3f1-0da399213b4d",
+      "name": "Defiant Shirren",
+      "textDescription": "<p>Despite the passage of time, you remain resolute in your defiance of the Swarm and other insectile tyrants. If you roll a success on a Will saving throw against an effect that was created by a creature with the kucharn trait, or a creature that you know is allied with the Swarm, you get a critical success instead. Additionally, you gain the Rebellious Defiance action.</p>",
+      "traits": "Shirren, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724841654106",
+      "listCustomEffects": [
+        {
+          "effectType": 13,
+          "string0": "25f045e5-2f86-4f09-8b11-c821444cef43",
+          "int0": 1
+        }
+      ]
+    },
+    {
+      "id": "161100a1-719d-4242-9097-0d3078065926",
+      "name": "Dreamer",
+      "textDescription": "<p>You have communed with the cosmic melody of Liavara and it changed you. You struggle to express the fragments of memory and sensation you recall from the experience, except through singing and other similar psychic emanations. Choose one cantrip from the occult spell list. By weaving magic into your song, you can cast this spell as an occult innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</p><br><p>Your magic is adaptable, and you can channel your music to enhance it. Once per day, you can meditate on your cosmic song to change the cantrip you have chosen to a different cantrip from the occult spell list. This is a 10-minute activity that has the concentrate trait.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724815271193"
+    },
+    {
+      "id": "950ae2b8-5d13-405b-83fb-9efb28b39c02",
+      "name": "Early Stage",
+      "textDescription": "<p>You are young and inexperienced compared to other barathus, with an individualistic worldview likely shaped by your interactions with other cultures. You’ve yet to see the full breadth of the cosmos and haven’t adapted yourself to overcome its many threats or understand its various lifeforms. Your form is highly mutable as you haven’t yet chosen to specialize or merge with other barathus. You’re Small instead of Medium. You gain Quick Squeeze as a bonus feat. Additionally, you gain resistance to precision damage equal to half your level (minimum 1).</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724815373894",
+      "listCustomEffects": [
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Quick Squeeze",
+          "reference": "96021b99-41aa-4c79-995b-e3682f22b052"
+        },
+        {
+          "effectType": 18,
+          "int0": 1
+        },
+        {
+          "proficiencyName": "Precision",
+          "effectType": 12,
+          "bonusType": 1
+        }
+      ]
+    },
+    {
+      "id": "d32af69c-50b1-48b6-9c38-0d0577245291",
+      "name": "Everwhelp Skittermander",
+      "textDescription": "<p>Despite being a full-grown adult, you’ve retained your stomachmouth—either through a quirk of evolution, purposeful genetic manipulation, or a biotech augmentation. You gain a jaws unarmed attack that deals 1d6 piercing damage, is in the brawling group, and has the finesse, skittermander, and unarmed traits.</p>",
+      "traits": "Skittermander, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "6fabbec9-f621-4b0f-b5cb-ab3fd9611cc8",
+      "name": "Gadraveech Skittermander",
+      "textDescription": "<p>You grew up in the subterranean realm of Gadraveech, or a similar dangerous underground environment. You have wispy, pale-colored fur, a slender build, and overlarge eyes. You gain darkvision.</p>",
+      "traits": "Skittermander, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
       "id": "213cec0f-578e-42a8-9e2c-e30c708d4255",
       "name": "Golarion Survivor",
       "textDescription": "<p>Your ancestors lived on lost Golarion, and though the circumstances of your family’s survival are lost to the Gap, your family taught you ancient traditions from a young age. You become trained with archaic weapons and Golarion Lore, and you learn a bonus language that was spoken in your lineage’s region of origin (see Pathfinder Player Core 34). You gain the Diehard feat.</p><br><p><strong>Note:&nbsp;</strong>You will have to manually add Golarion Lore and training with archaic weapons. (Archaic is a weapon trait in SF2E.)</p>",
@@ -6488,12 +6130,230 @@
       ]
     },
     {
+      "id": "4f7f0918-aba8-4303-bbdf-b2e86faf6b6e",
+      "name": "Hunter-Stalker Pahtra",
+      "textDescription": "<p>You descend from a long line of hunters and your fur is especially well suited to blending into multiple environments. As long as you are in a natural and undeveloped environment, you gain a +2 circumstance bonus to Stealth checks to Hide and Sneak, to Survival checks to Subsist, and to your Survival DC to Cover Tracks.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724839393848"
+    },
+    {
+      "id": "83117d67-e87f-46e7-af7a-cc3b041537d5",
+      "name": "Infiltrator Shirren",
+      "textDescription": "<p>You descend from shirrens who were originally programmed as infiltrators for the Swarm. Your chitin is iridescent and&nbsp;creates patterns that fascinate and distract most other ancestries. You can Feint at a range of 10 feet, rather than solely while within melee reach of your intended target. You gain the Shimmering Dazzle action.</p>",
+      "traits": "Shirren, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724893766810",
+      "listCustomEffects": [
+        {
+          "effectType": 13,
+          "string0": "c44e593a-0a54-4710-b445-1494b9bc207d",
+          "int0": 1
+        }
+      ]
+    },
+    {
+      "id": "1e3117d2-9a89-4aed-b692-b5e18f1462b4",
+      "name": "Kasath Survivalist",
+      "textDescription": "<p>You and your ancestors were among those who chose not to abandon your dying homeworld. Your people trek through wasted lands under dim skies, seeking shelter and resources even as they slowly dwindle. You may have finally decided to seek a better life, or perhaps you hope to convince others to return to Kasath with you. You can Hustle twice as long while exploring before you have to stop. If you’re in a group that is Hustling, you increase the total number of minutes the group can Hustle by 10 minutes, or by 20 minutes if you’re 13th level or higher. You gain the Feather Step feat.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724826776597",
+      "listCustomEffects": [
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Feather Step",
+          "reference": "8c82fe1d-9aca-4c1d-bb8b-6ee4949dbb1d"
+        }
+      ]
+    },
+    {
+      "id": "f7e207eb-48b6-43fb-979e-c4e0d8186a99",
+      "name": "Korasha Lashunta",
+      "textDescription": "<p>You’ve chosen the adaptive genetics that lead to becoming a korasha. You may be shorter than other lashuntas and would likely excel as a warrior or explorer. You gain an attribute boost to Strength and an attribute flaw to Wisdom, but the free ancestry boost cannot also be Strength. You gain 8 Hit&nbsp;Points from your ancestry instead of 6, and you gain a +1 circumstance bonus to Athletics checks to Shove or Trip foes.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724836984184",
+      "listCustomEffects": [
+        {
+          "effectType": 21,
+          "bonusAmount": 1,
+          "casterAbilityRef": 0
+        },
+        {
+          "effectType": 21,
+          "bonusAmount": -1,
+          "casterAbilityRef": 4
+        },
+        {
+          "effectType": 5,
+          "bonusAmount": 2,
+          "int0": 0
+        }
+      ]
+    },
+    {
+      "id": "a66a2ddf-5453-4bd4-b808-d7c5daea5b53",
+      "name": "Krreyvash Pahtra",
+      "textDescription": "<p>You or your ancestors chose to endure experimental bioengineering to help fight the Veskarium. Choose a 1stlevel biotech augmentation. The selected augmentation is permanently part of your body and does not count against the maximum number of augmentations you can implant. You don’t pay the cost for this augmentation. You can swap out this bonus augmentation by paying the appropriate cost for a new augmentation at any time.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724839439297"
+    },
+    {
+      "id": "aaec6208-1c64-4860-8e16-4ea5b6e0e6a3",
+      "name": "Manufacturer",
+      "textDescription": "<p>Your body is a living laboratory, allowing you to ingest raw materials and refine them into useful medicines and other products. You become trained in Crafting (or another skill of your choice if you’re already trained in Crafting) and gain the Pharmaceutical Crafting feat.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724815619417",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Crafting",
+          "effectType": 11,
+          "bonusAmount": 2
+        }
+      ]
+    },
+    {
+      "id": "0b4b72df-a9f4-4c04-adee-f440bfd8f4fc",
+      "name": "Merged",
+      "textDescription": "<p>You are a unique entity, formed from the constant union of two or more barathus who enjoy the act of combination so much that they chose not to return to isolation as their former selves. You’re Large instead of Medium. You gain 10 Hit Points from your ancestry instead of 8, and you gain a +1 circumstance bonus to saving throws against emotion effects.</p>",
+      "traits": "Barathu, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724815738287",
+      "listCustomEffects": [
+        {
+          "effectType": 18,
+          "int0": 3
+        },
+        {
+          "effectType": 5,
+          "bonusAmount": 2,
+          "int0": 0
+        }
+      ]
+    },
+    {
+      "id": "db570161-7d71-4bb5-85c7-71e57f9ff6f8",
+      "name": "Meyel's Chosen Pahtra",
+      "textDescription": "<p>You have an undeniable streak of luck that you believe is a blessing from your ancestral god Meyel. You may come from a long line of mystics, be born at a holy site on Pulonis, or simply have reached out in fervent prayer at a time of crisis. Most of Meyel’s chosen can point to at least one past event when their goddess may have intervened to save them from death or some other awful fate. Whether metaphorically or literally, you always seem to land on your feet. The first time each day that you critically fail a saving throw, you immediately reroll the saving throw as a free action; this is a fortune effect.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724839495427"
+    },
+    {
+      "id": "59202ee8-434f-486f-8ed6-08b47491d269",
+      "name": "Mod Fanatic",
+      "textDescription": "You or your previous iterations have modified your body to be compatible with armor upgrades, enabling you to personally customize your body and its capabilities. Your<br>body has one armor upgrade slot that you can use to modify<br>your body. You can install and uninstall armor upgrades into your upgrade slot using the Install Upgrade activity. Choose one common armor upgrade with an item level of 1 or less. You begin with this armor upgrade already installed in your upgrade slot (you don’t need to pay the credits to purchase this starting upgrade).",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814692164"
+    },
+    {
+      "id": "edf3f15a-bb87-4b1f-ad0a-7809a1b3991b",
+      "name": "Networked",
+      "textDescription": "<p>Your body was modified to network seamlessly with anacites, robots, and other technological beings from Aballon. You gain shortwave, allowing you to communicate wirelessly with any creatures within 30 feet, as long as they have shortwave or are a construct with the technological trait. This doesn’t give any special access to their thoughts or programming, and communicates no more information than normal speech would. You can attempt Computers checks to Hack System and Thievery checks to Disable a Device or Pick a Lock on technological devices at a range of 30 feet.</p>",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814700533"
+    },
+    {
+      "id": "941ad89f-506a-46d4-949f-1f05488b957f",
+      "name": "Nightstalker Vesk",
+      "textDescription": "<p>You’ve adapted to live your life in darkness, perhaps due to living underground, in poorly lit starship corridors, under smoke-shrouded skies, or on a planet far from its sun. You gain darkvision.</p>",
+      "traits": "Vesk, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "4111fb59-ba56-49f7-a669-fcc019837790",
+      "name": "Plated Vesk",
+      "textDescription": "<p>Your ancestors were the hardiest specimens of vesk, having traveled far and wide while enduring hostile environments. Your scales count as medium armor in the plate armor group that grant a +4 item bonus to AC, a Dex cap of +1, a check penalty of –2, and a Strength threshold of +3, and has the comfort trait. You can wear a flight suit, but you can’t wear other armor. You can etch armor runes (see Pathfinder GM Core 226) onto your scales, but you can’t install armor upgrades.</p><p><b>Note:</b> You will need to add this armor to the armor tab manually.</p>",
+      "traits": "Vesk, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "cf7169c5-4048-4af0-aba0-506aed140549",
+      "name": "Pouncer Pahtra",
+      "textDescription": "<p>You excelled in the war games of your youth, and you’ve trained hard to maintain your athletic ability even on worlds where higher gravity makes such feats more tiring. You have lean and long legs that let you run exceptionally fast, and a large tail that acts as a rudder to maintain your balance during sharp turns. Your speed increases by 5 feet. In addition, you don’t automatically fail your checks to High Jump or Long Jump if you don’t Stride at least 10 feet first.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724839555667",
+      "listCustomEffects": [
+        {
+          "effectType": 1,
+          "bonusType": 3,
+          "bonusAmount": 5
+        }
+      ]
+    },
+    {
       "id": "99a79809-80da-4e93-a3a1-a9d0abd8224b",
       "name": "Prismeni",
       "textDescription": "<p>You have an innate connection to the Drift. You gain the prismeni trait, in addition to the traits from your ancestry. While in the Drift, you can automatically pinpoint the location of Drift beacons, Drift drives, Drift engines, and other Driftrelated technology within a 100-mile radius. If you’re Piloting a starship that doesn’t have a Drift engine, you can serve as a connection between the Drift and that starship. This is a 1-minute activity that has the concentrate trait, and it allows the starship you’re Piloting to enter or exit the Drift. Once within the Drift, the starship travels via conventional thrusters, as normal. When you get a critical failure on a Piloting check to Navigate or Plot Course through the Drift, you get a failure instead. You can choose from prismeni feats and feats from your ancestry whenever you gain an ancestry feat.</p>",
       "traits": "Prismeni, Versatile, 3rd Party",
       "src": "SF2E Playtest",
       "databaseID": 1
+    },
+    {
+      "id": "219b6dbd-922b-408c-9b1b-c6e11cc148b3",
+      "name": "Renewed Android",
+      "textDescription": "Many souls have inhabited your synthetic body before you, and you might incorporate a number into your name to honor them. You might know your body’s history and strive toward a goal bequeathed to you by a departed soul, or you might seek to unravel the mystery of a forgotten legacy. Muscle memory hints at your body’s past, and people you’ve never met strangely recognize your face. The first time in a day that you lose the dying condition, you don’t gain the wounded condition. You become trained in a skill of your choice that has the Recall Knowledge action, and you gain the Dubious Knowledge skill feat.<br><br>Note: Pathbuilder does not enable me to give you a free skill of your choice, so you will have to manually add the skill training to your character.",
+      "traits": "Android, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724814707874",
+      "listCustomEffects": [
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Dubious Knowledge",
+          "reference": "93320993-6728-4fcb-b8d0-53669d85af10"
+        }
+      ]
+    },
+    {
+      "id": "3e8ab1ec-9f4d-4978-bf55-f9000e8f13c6",
+      "name": "Rime Walker Pahtra",
+      "textDescription": "<p>You’ve adapted to cold environments with a multilayer fluffy fur coat and extra body fat. You may be the descendant of ancient pahtras who dwelled on Pulonis long before the Veskarium’s exploitation changed its climate, or you may have unlocked this genetic potential through bioengineering.&nbsp;You gain cold resistance equal to half your level (minimum 1). You treat environmental cold effects as if they were one step less extreme (incredible cold becomes extreme, extreme cold becomes severe, and so on).</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724839675121",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Cold",
+          "effectType": 12,
+          "bonusType": 1
+        }
+      ]
+    },
+    {
+      "id": "209eb2e5-2e5e-42f9-843d-623573ae56dc",
+      "name": "Sand Roamer Pahtra",
+      "textDescription": "<p>Your ancestors roamed blasted terrain leeched of vital nutrients by the Veskarium. You are shorter and stockier than most pahtras, with wide, tufted ears and fur-covered paw pads. Your size is Small instead of Medium. You ignore difficult terrain and uneven ground caused by sand. In addition, environmental heat effects are one step less extreme for you (incredible heat becomes extreme, extreme heat becomes severe, and so on), and you can go 10 times as long as normal before you are affected by starvation or thirst.</p>",
+      "traits": "Pahtra, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724839608748",
+      "listCustomEffects": [
+        {
+          "effectType": 18,
+          "int0": 1
+        }
+      ]
     },
     {
       "id": "56987ca6-89ac-4037-8eeb-892e6601365a",
@@ -6505,6 +6365,109 @@
       "timestamp": "1724825424255"
     },
     {
+      "id": "9c4dedc1-5768-4a71-9994-c0421e5ebe45",
+      "name": "Scrabbler Skittermander",
+      "textDescription": "<p>You never mastered coordinating all six of your arms for manual manipulation, instead using the lowest two of these limbs for extra mobility. You have four arms (rather than six) and four legs (rather than two). You gain a climb speed equal to your base land speed.</p>",
+      "traits": "Skittermander, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "658cd387-241e-478a-9085-c9ee697e3f1e",
+      "name": "Shipborn",
+      "textDescription": "<p>You were one of the kasathas born and raised on the Idari generation ship that now orbits the Pact Worlds’ sun. Your family kept hope and tradition alive while enduring the&nbsp;hardships of lengthy space travel. For you, the Idari is the only home you’ve ever known. When you roll a success on a saving throw against an emotion effect, you get a critical success instead.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724826830280"
+    },
+    {
+      "id": "e8ef8bf8-0c80-4d8f-b9b9-8e9bc9c2d4e7",
+      "name": "Shipborn Ysoki",
+      "textDescription": "<p>You were born aboard a starship, inside a space station’s access corridors, or another similar environment. You gain the trained proficiency rank in Piloting. If you would automatically become trained in Piloting (from your background or class, for example), you become trained in another skill of your choice. If you get a success on a Piloting check to Navigate or Plot Course, you get a critical success instead.</p><br><p>You adapted to maneuvering in close quarters. You gain a +1 circumstance bonus to Acrobatics checks to Tumble Through the spaces of Medium or larger enemies, and the presence of an enemy doesn’t make the squares difficult terrain</p>",
+      "traits": "Ysoki, 3rd Party, Ratfolk",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "40b476c8-43f0-4636-a059-40edd227c517",
+      "name": "Skitter Raised",
+      "textDescription": "<p>You’ve spent most of your life in a tight-knit community, where teamwork is expected and crowds are just giant group hugs. You gain the Group Impression skill feat. In addition, you gain a +2 circumstance bonus to checks to Aid an ally at a skill check that doesn’t have the attack trait.</p>",
+      "traits": "Skittermander, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1
+    },
+    {
+      "id": "16cc57ec-5b4e-4f07-bbd6-03439c9e7a11",
+      "name": "Stellar Nomad",
+      "textDescription": "<p>You choose to travel abroad, leaving your birthplace to embark on a journey through the wider cosmos. During your daily preparations, you can study a particular faction, philosophy, ancestry, or religion to learn one of their edicts or anathemas and gain a broader understanding of that culture’s customs and traditions. While you follow that edict or anathema, you become trained in the associated lore (such as Vesk Lore or Damoritosh Lore). This proficiency lasts until you prepare again. Since this training is temporary, you can’t use it as a prerequisite for a permanent character option like a feat or a skill increase.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724826880865"
+    },
+    {
+      "id": "73b255cd-198e-4894-b813-c03c4fb4d0b9",
+      "name": "Swarm Exile Shirren",
+      "textDescription": "<p>While most shirrens broke away from the Swarm long ago, you’re a more recent convert. You come from a group of castaways that have more in common with the Swarm than most other shirrens. You gain a bio-cannon ranged unarmed attack with a range increment of 20 feet that deals 1d6 acid damage. Your bio-cannon is in the corrosive weapon group. When you select this heritage, choose whether this attack comes from an underslung launcher on one of your arms, a launcher mounted over one of your shoulders, or from your mouth. You can’t change this selection.</p>",
+      "traits": "Shirren, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724842119046"
+    },
+    {
+      "id": "263c0e28-f77e-4e3b-b8f7-78e588813830",
+      "name": "Tempering",
+      "textDescription": "<p>You are undergoing your Tempering, a coming-of-age ritual in which a kasatha rejects the formal traditions of their family and experiences other customs and traditions. You may be one of the Untempered, a kasatha who chooses to continue their Tempering beyond the traditional yearlong period. You become trained in Society and gain the Streetwise feat.</p>",
+      "traits": "Kasatha, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724826948366",
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Society",
+          "effectType": 11,
+          "bonusAmount": 2
+        },
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Streetwise",
+          "reference": "3e576238-d33a-4ff7-9533-5c8eb97fd94d"
+        }
+      ]
+    },
+    {
+      "id": "03ba0d6a-24b6-43e6-a09c-33257941f0d4",
+      "name": "Tunnel Ysoki",
+      "textDescription": "<p>Your incredibly small bones allow you to easily compress your body and squeeze through gaps, whether it’s the space between walls to reach a severed data cable or the ductwork of a space station. You gain the Quick Squeeze feat, even if you aren’t trained in Acrobatics. Tight spaces not tight enough to require the Squeeze action aren’t difficult terrain for you.</p>",
+      "traits": "Ysoki, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "effectType": 14,
+          "string0": "GENERAL_Quick Squeeze",
+          "reference": "8d28f2be-2c18-40ef-babd-f7ac9f55c37a"
+        }
+      ]
+    },
+    {
+      "id": "4e4a7bde-d209-4b74-9620-9e271ccb769a",
+      "name": "Unbound Lashunta",
+      "textDescription": "<p>You decided against activating your ancestry’s adaptive genetics, and you might show a combination of damaya and korasha traits; you may be tall and muscular, small and lithe, or have unusual features, such as bumps and swirls covering your entire body or long, fuzzy antennae. You gain the Unbound Mind reaction.</p>",
+      "traits": "Lashunta, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724837097468",
+      "listCustomEffects": [
+        {
+          "effectType": 13,
+          "string0": "1ee21dcf-d869-49fd-8dc1-d171b715881d",
+          "int0": 1
+        }
+      ]
+    },
+    {
       "id": "f2860848-1f55-4ef4-869c-a7833a6042f3",
       "name": "Urbanite",
       "textDescription": "<p>You’ve grown up in a big city and are accustomed to the press and pull of the largest crowds, the electric buzz and tangle of streets, or the dense nature of vertical living on a station or megaplex. You ignore difficult terrain from crowds and lesser cover from crowds. You become trained in Lore for one specific city of your choice.</p><br><p><strong>Note:&nbsp;</strong>You will need to add the city Lore manually.</p>",
@@ -6512,6 +6475,50 @@
       "src": "SF2E Playtest",
       "databaseID": 1,
       "timestamp": "1724825521487"
+    },
+    {
+      "id": "5231ffd0-a779-44e7-9a8c-76179a918405",
+      "name": "Venomthought Vesk",
+      "textDescription": "<p>You are one of the notable vesk born with psychic talents. According to folklore, your lineage originated with an ancient cave-dwelling society on Vesk Prime who modified themselves with occult rituals, gaining “venomous thoughts” that could manifest in any future progeny. You can cast <em>daze</em>&nbsp;as an occult innate cantrip at will. A cantrip is heightened to a spell rank equal to half your level rounded up. You gain a +1 circumstance bonus to Occultism checks to Recall Knowledge about psychic traditions and philosophies.</p><p><strong>Note:</strong> The heightening will not be applied automatically.</p>",
+      "traits": "Vesk, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "proficiencyName": "Daze",
+          "effectType": 9,
+          "bonusType": 2
+        }
+      ]
+    },
+    {
+      "id": "bad12bf2-5852-445c-b24e-b2139e25f11e",
+      "name": "Warblood Vesk",
+      "textDescription": "You come from a bloodline of renowned warriors who have honed their bodies over centuries to become lethal weapons. You gain the Brutal Anatomy ancestry feat twice.",
+      "traits": "Vesk, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "listCustomEffects": [
+        {
+          "effectType": 14,
+          "string0": "b47cd985-faf5-48d4-9ed4-c0bbf889bcbc",
+          "reference": "ea5d7727-9fa5-4034-8ad8-96a536de16ed"
+        },
+        {
+          "effectType": 14,
+          "string0": "b47cd985-faf5-48d4-9ed4-c0bbf889bcbc",
+          "reference": "24dc0e44-b62c-440f-8759-5d96a8dbd6ed"
+        }
+      ]
+    },
+    {
+      "id": "98157480-74d7-473d-85ab-04f85fc9fc05",
+      "name": "Winged Shirren",
+      "textDescription": "<p>Your ancestors were members of the Swarm who evolved wings. Though you don’t possess a fully functional pair of wings, you can develop them over time. When Leaping horizontally, you move an additional 5 feet. You don’t automatically fail your checks to High Jump or Long Jump if you don’t Stride at least 10 feet first. In addition, when you perform a Long Jump, you can jump a distance up to 10 feet further than the result of your Athletics check (within the normal maximum for your Speed). As long as you can act, you take no damage from falling, regardless of the distance you fall.</p>",
+      "traits": "Shirren, 3rd Party",
+      "src": "SF2E Playtest",
+      "databaseID": 1,
+      "timestamp": "1724842265419"
     }
   ],
   "listCustomSpells": [
@@ -6710,26 +6717,6 @@
       "databaseID": 1
     },
     {
-      "name": "Adaptive Locomotion",
-      "id": "d0e29123-a86f-4c2e-a032-97ffe6eaa13d",
-      "description": "<p><strong>Frequency </strong>once per hour;</p><br><p><strong>Effect </strong>You transform your limbs into either flippers or hooked pseudopods, to better traverse the surrounding environment. If you select flippers, you gain a swim Speed of 20 feet. If you select hooked pseudopods, you gain a climb Speed of 20 feet. This transformation lasts for 10 minutes.</p>",
-      "traits": "Barathu, Morph, 3rd Party",
-      "src": "SF2E Playtest",
-      "actions": 1,
-      "databaseID": 1,
-      "timestamp": "1724816685258"
-    },
-    {
-      "name": "Beginner's Luck",
-      "id": "0dc65e2f-7185-421b-b7d0-b906e12a11a0",
-      "description": "<p><strong>Frequency</strong> once per day;&nbsp;<strong>Trigger</strong> You fail a skill check using a skill that you’re<br>untrained in; <strong>Effect</strong> Reroll the triggering skill check and use the better result.</p>",
-      "traits": "Skittermander, Fortune, 3rd Party",
-      "src": "SF2E Playtest",
-      "level": 5,
-      "actions": -1,
-      "databaseID": 1
-    },
-    {
       "name": "Deny Failure",
       "id": "400a35a3-6866-4ced-bdd8-627b953366f4",
       "description": "<p><strong>Frequency</strong>once per day; <strong>Trigger </strong>You fail or critically fail a saving throw; <strong>Effect </strong>You refuse to accept your failure! Reroll the triggering saving throw. If your result is a critical failure, this use of Deny Failure doesn’t count toward its frequency</p>",
@@ -6738,36 +6725,6 @@
       "level": 13,
       "actions": 0,
       "databaseID": 1
-    },
-    {
-      "name": "Piercing Spikes",
-      "id": "6c0c01cb-5f72-43eb-a0c8-bb85dfc68c7f",
-      "description": "<p><strong>Trigger </strong>You become grabbed by a creature;</p><br><p><strong>Effect</strong> You twist and thrash your body around, dealing 1d4 plus your Strength modifier piercing damage to the triggering creature. This damage increases by 1d4 at 5th level and every four levels thereafter.</p>",
-      "traits": "Barathu, 3rd Party",
-      "src": "SF2E Playtest",
-      "actions": 0,
-      "databaseID": 1,
-      "timestamp": "1724816679102"
-    },
-    {
-      "name": "Plate Deflection",
-      "id": "9d6f69ef-b3bb-442d-9cc6-756c46a5f15a",
-      "description": "<p><strong>Frequency </strong>once per day; <strong>Trigger </strong>A foe hits you with a critical hit; <strong>Effect </strong>You deflect the attack to a heavily armored part of your body. You don’t take double damage from the critical hit but still take other effects.</p>",
-      "traits": "Vesk, 3rd Party",
-      "src": "SF2E Playtest",
-      "level": 9,
-      "actions": 0,
-      "databaseID": 1
-    },
-    {
-      "name": "Rebellious Defiance",
-      "id": "25f045e5-2f86-4f09-8b11-c821444cef43",
-      "description": "<p><strong>Frequency </strong>once per day; <strong>Effect </strong>You decry one foe within 100 feet that you can see as a tyrant or villain, and prepare yourself to defy them, even unto death. You gain a +1 circumstance bonus on your attack rolls against this foe, and gain a +1 circumstance bonus to saving throws against the attacks, spells, and effects of this foe. These benefits last for 1 minute.</p>",
-      "traits": "Mental, Shirren, 3rd Party",
-      "src": "SF2E Playtest",
-      "actions": 1,
-      "databaseID": 1,
-      "timestamp": "1724841606134"
     },
     {
       "name": "Redirect Current",
@@ -6779,27 +6736,6 @@
       "databaseID": 1
     },
     {
-      "name": "Redirect Energy",
-      "id": "30f681af-68bd-48b7-a933-b3ad181b6385",
-      "description": "<p><strong>Trigger </strong>You are dealt cold damage or fire damage; <strong>Effect </strong>You tap into the harmful energy directed at you and redirect its essence into a melee weapon you’re holding. Until the end of your next turn, the selected weapon deals an additional 1d4 damage of the triggering damage type. During this time, you lose any resistance to the triggering damage type granted to you by Perfectly Balanced.</p>",
-      "traits": "Kasatha, 3rd Party",
-      "src": "SF2E Playtest",
-      "level": 13,
-      "actions": 0,
-      "databaseID": 1,
-      "timestamp": "1724836073381"
-    },
-    {
-      "name": "Shimmering Dazzle",
-      "id": "c44e593a-0a54-4710-b445-1494b9bc207d",
-      "description": "<p><strong>Frequency </strong>once per hour; <strong>Effect </strong>You cause your chitin to flare and shimmer in a hypnotic display of shifting color and soothing motion. Pick a creature within 30 feet. That creature must succeed a Fortitude save against your class DC or become dazzled for 1 round.</p>",
-      "traits": "Mental, Shirren, Visual, 3rd Party",
-      "src": "SF2E Playtest",
-      "actions": -1,
-      "databaseID": 1,
-      "timestamp": "1724841727940"
-    },
-    {
       "name": "Soul Shield",
       "id": "264d9fab-9637-4e01-865e-1c7f44c5f762",
       "description": "<p><strong>Frequency </strong>once per day; <strong>Trigger </strong>You would be dealt void damage; <strong>Effect</strong>You push your soul out of your body and use it as a shield to protect your living form from the ravages of the void. Against the triggering damage and until the beginning of your next turn, you gain void healing, meaning you are healed by void damage and harmed by vitality damage.</p>",
@@ -6807,26 +6743,6 @@
       "src": "SF2E Playtest",
       "actions": 0,
       "databaseID": 1
-    },
-    {
-      "name": "Targeted Immunization",
-      "id": "e7483fdd-f897-4629-996f-61db3bdc06d0",
-      "description": "<p><strong>Trigger</strong> You recover from a disease or poison;</p><br><p><strong>Effect </strong>You instinctively synthesize antigens that make you immune to the triggering disease or poison. This immunity lasts for the next day or until you next use Targeted Immunization.</p>",
-      "traits": "Barathu, Concentrate, 3rd Party",
-      "src": "SF2E Playtest",
-      "actions": -1,
-      "databaseID": 1,
-      "timestamp": "1724816925794"
-    },
-    {
-      "name": "Unbound Mind",
-      "id": "1ee21dcf-d869-49fd-8dc1-d171b715881d",
-      "description": "<p><strong>Trigger </strong>You attempt a saving throw against a mental effect, but you haven’t rolled yet; <strong>Effect </strong>You refuse to conform to the will of others, shaking off their attempts to control you with sheer determination. You gain a +1 circumstance bonus to saving throws on the triggering save and other saves against mental effects until the start of your next turn.</p>",
-      "traits": "Lashunta, 3rd Party",
-      "src": "SF2E Playtest",
-      "actions": 0,
-      "databaseID": 1,
-      "timestamp": "1724837054605"
     },
     {
       "name": "Unfurl Wings",
@@ -6990,25 +6906,6 @@
       "languages": "Common, Vesk, one regional language of your choice",
       "special": "<p><strong>Low-Light Vision</strong></p><br><p>You can see in dim light as though it were bright light, and you ignore the concealed condition due to dim light.</p>",
       "src": "Custom",
-      "databaseID": 1
-    },
-    {
-      "name": "Ysoki",
-      "id": "3e179a5d-d931-417f-8c8c-bae32bfcf91f",
-      "traits": "Humanoid, Ysoki, Ratfolk, 3rd Party",
-      "hp": 6,
-      "size": 1,
-      "abilityBoosts": [
-        1,
-        3
-      ],
-      "abilityFlaws": [
-        0
-      ],
-      "description": "<p>Once known as ratfolk, ysoki are clever and flexible. With roots on countless worlds, ysoki work alongside larger species helping to establish communities and accomplish tough tasks. From the largest of crowds to the tightest of tunnels, a ysoki always knows how to find their way. Only the foolish overlook the presence of a ysoki in a group.</p>",
-      "languages": "Common,Ysoki,Akitonian",
-      "special": "<p><strong>Low-Light Vision</strong></p><p>You can see in dim light as though it were bright light, and you ignore the concealed condition due to dim light.</p>",
-      "src": "SF2E Playtest",
       "databaseID": 1
     }
   ]
