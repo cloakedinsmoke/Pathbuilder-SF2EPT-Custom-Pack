@@ -11,7 +11,7 @@
   Copying and pasting is a long tedious business (made even moreso by the random line breaks and such which must be edited out) so I will not attempt to bring every class, feat, or spell into the Custom Pack. Here is what I plan on:
 1. Ancestries - Finished!
 * I have successfully created custom ancestries for every one published in the Playtest document, including heritages and all ancestry feats. I have also reproduced every feat, spell, unarmed attack, and (in the case of one Vesk heritage, natural armor) that is referenced in each feat.
-* In an effort to reduce my workload, I did not reproduce feats from existing PF2E ancestries which were repeated in the Playtest (except for the Android, which I did not realize already existed in PF2E until after I had finished.) To this end, Ysoki heritages and feats are listed under Ratfolk.
+* In an effort to reduce my workload, I did not reproduce feats from existing PF2E ancestries which were repeated in the Playtest. To this end, Ysoki heritages and feats are listed under Ratfolk.
 * The exception to this is the Android ancestry, which I had already finished before I realized Androids are a PF2E ancestry already.
 2. Backgrounds - Not Started
 * There weren't THAT many new backgrounds, and backgrounds aren't very complex, so it shouldn't take too long.
