@@ -1,0 +1,185 @@
+"customPackID":"96728a6f-c78b-444c-b058-d2f54c1e00b0",
+   "customPackName":"Wormwood Mutiny 2E Conversion",
+   "listCustomBackgrounds":[
+      {
+         "databaseID":1,
+         "id":"6d00edb8-1eaf-4139-b9cc-4e0853fe3a73",
+         "name":"Ancient Explorer",
+         "traits":"3rd Party",
+         "boost_ref_1":"3",
+         "boost_ref_2":"2",
+         "freeFeatID":"GENERAL_Multilingual",
+         "freeFeatDetail":"Cyclops, plus one common or uncommon language you have access to",
+         "skill":"Society",
+         "lore":"Ghol-Ghan",
+         "description":"You are a student of the ancient history of Golarion, and you’ve come to the Shackles to explore the crumbling and vine-choked ruins of the cyclops empire of Ghol-Gan, which have lain abandoned among the isles of the Shackles for thousands of years.<br><em>Prologue:</em> You went to a tavern called the Formidably Maid in Port Peril last night to meet a contact who supposedly had an old map of lost cyclops ruins to sell, but the drink was stronger than you had expected and you passed out before making the deal.",
+         "src":"Custom"
+      },
+      {
+         "databaseID":1,
+         "id":"03224a8f-905a-4b49-9958-8802418938ae",
+         "name":"Barroom Talespinner",
+         "traits":"3rd Party",
+         "boost_ref_1":"4",
+         "boost_ref_2":"5",
+         "freeFeatID":"GENERAL_Virtuosic Performer",
+         "skill":"Performance",
+         "lore":"Pirates",
+         "description":"You grew up listening to tales of adventure and piracy on the high seas and the sea chanteys of old salts in dockside dives. You learned all about what it’s like to be a pirate by talking with the sailors on shore leave, and learned how to tell a tale (or perform some other pirate entertainment) yourself.<br><em>Prologue:</em> You went to a tavern called the Formidably Maid in Port Peril to earn a few coins with your tales of the sea. The patrons seemed pleased with your performance and bought you a few drinks. You had just remembered a tale of an unfortunate sailor who found himself press-ganged on a pirate ship after his drink was drugged when suddenly everything went black.",
+         "src":"Custom"
+      },
+      {
+         "databaseID":1,
+         "id":"69b7af47-18fb-4b35-a2c7-8d9836ed7808",
+         "name":"Besmara's Blessing",
+         "traits":"3rd Party",
+         "boost_ref_1":"2",
+         "boost_ref_2":"4",
+         "freeFeatID":"GENERAL_Terrain Expertise",
+         "freeFeatDetail":"Aquatic",
+         "skill":"Survival",
+         "lore":"Sailing",
+         "description":"You were born aboard a ship at sea or down by the docks in a port city on an auspicious day. Old salts and sea dogs nod knowingly and say that Besmara the Pirate Queen, goddess of piracy, sea monsters, and strife, has marked you for a greater destiny. You don’t know anything about that, but you’ve always felt more at home on the sea than on land, and your keen eyes can easily pick out a sail on the distant horizon.<br><em>Prologue:</em> You came to a tavern in Port Peril called the Formidably Maid in search of your fate. You’re not sure how many drinks you had, but they quickly went to your head and you passed out on the table before you found your destiny—unless it lay in the bottom of a bottle. Then again, maybe you found your destiny after all...",
+         "src":"Custom"
+      },
+      {
+         "databaseID":1,
+         "id":"69a580da-bfcb-4ace-8432-21e83e3da01e",
+         "name":"Buccaneer's Blood",
+         "traits":"3rd Party",
+         "boost_ref_1":"0",
+         "boost_ref_2":"5",
+         "freeFeatID":"GENERAL_Intimidating Glare",
+         "skill":"Intimidation",
+         "lore":"Shackles",
+         "description":"One of your ancestors was an infamous Free Captain of the Shackles, whose very name struck fear in the hearts of those who sailed the seas in search of an honest living. Piracy is in your blood, and you’ve always longed to follow in your forebear’s footsteps and plunder the shipping lanes.<br><em>Prologue:</em> You went to a tavern called the Formidably Maid, a notorious pirate hangout in Port Peril, eager to start your career as a buccaneer. While you were there, however, a dashing and flirtatious corsair caught your eye, and after a whirlwind night of booze and romance, you found yourself beaten senseless and stuffed in a sack, carried off to who knows where.<br><em>Special: In addition, when you and your allies gain command of a ship, you gain a one-time +1 bonus to your Disrepute and Infamy scores. Please let me know the name of your ancestor, their ship, and a legendary feat they became infamous for.</em>",
+         "src":"Custom",
+         "limitedBoosts":[
+            0,
+            5
+         ]
+      },
+      {
+         "databaseID":1,
+         "id":"21fce1c3-5feb-4d67-9844-11041061727b",
+         "name":"Dockside Brawler",
+         "traits":"3rd Party",
+         "boost_ref_1":"0",
+         "boost_ref_2":"2",
+         "freeFeatID":"General_Battle Medicine",
+         "skill":"Athletics",
+         "lore":"Street Fight",
+         "description":"You grew up on the dangerous docks of one of the Shackles’ numerous ports or anchorages, and quickly learned that fists often make a better point than fancy words, especially when used the right way. You’ve always preferred action to talk, anyway.<br><em>Special:</em> You are trained in brass knuckles and knuckle dusters and gain a +1 circumstance bonus to damage while using them. If your attack would deal more than one weapon die of damage (as is common at higher levels than 1st), the bonus is equal to the number of weapon dice. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency rank in brass knuckles and knuckle dusters. If you are at least an expert in brass knuckles or knuckle dusters, you gain access to their critical specialization effect.<br><em>Prologue:</em> While drinking at a tavern called the Formidably Maid in Port Peril last night, you got into a brawl with some of the other patrons. You handled yourself well, but a group of rough-looking characters ganged up on you and overwhelmed you, knocking you unconscious.<br><br><em>!!!</em> Fortunately, you were able to conceal your knuckle dusters when you were press-ganged, and you begin the campaign with them, regardless of your starting circumstances.",
+         "src":"Custom",
+         "limitedBoosts":[
+            0,
+            2
+         ]
+      },
+      {
+         "databaseID":1,
+         "id":"48d29469-e0be-46db-9281-3832276461f8",
+         "name":"Eye for Plunder",
+         "traits":"3rd Party",
+         "boost_ref_1":"1",
+         "boost_ref_2":"4",
+         "freeFeatID":"GENERAL_Experienced Professional",
+         "skill":"Thievery",
+         "lore":"[a city you lived in as a thief]",
+         "description":"You’ve always had a keen eye for the glitter of gold or silver, and you’ve robbed enough rich merchants and raided enough ships to have a feel for where the most valuable plunder is hidden.<br><br><em>Prologue:</em> You found yourself relatively well off when you got your share of your last voyage’s plunder, and decided to spend a few of your hard-won coins at the Formidably Maid, a popular pirate tavern in Port Peril. Maybe the shine of your new wealth distracted you, however, because you never saw the miscreants who slipped something into your drink, knocking you out cold.<br><br><em>Special: In addition, during your first day on the Wormwood, you are able to scrounge together a selection of mundane trade goods worth 75 sp.</em>",
+         "src":"Custom"
+      },
+      {
+         "databaseID":1,
+         "id":"e008e59f-3f4a-414a-9423-8c3df20d941f",
+         "name":"Ilizmagorti Native",
+         "traits":"3rd Party",
+         "boost_ref_1":"4",
+         "boost_ref_2":"3",
+         "freeFeatID":"GENERAL_Streetwise",
+         "skill":"Society",
+         "lore":"Shackles",
+         "description":"You grew up in the city of Ilizmagorti on Mediogalti Island, a pirate port infamous for both the scoundrels who visit it &amp; the feared Red Mantis assassins who run it. You’ve been around pirates all your life, but you’ve learned to be wary in your dealings with people, as there’s no telling who might be a Red Mantis in disguise.<br><br><em>Prologue:</em> Looking to make your fortune, you hopped aboard a pirate ship in Ilizmagorti, and decided to celebrate your safe arrival in Port Peril with a few drinks at a tavern called the Formidably Maid. There were some suspicious-looking characters there, to be sure, and you decided to give them a wide berth, but as you left, feeling a bit woozy from drink, you were set upon by thugs in a dark alley and knocked unconscious.",
+         "src":"Custom"
+      },
+      {
+         "databaseID":1,
+         "id":"75f7040f-d41d-4047-9538-c9711863387b",
+         "name":"Peg Leg",
+         "traits":"3rd Party",
+         "boost_ref_1":"0",
+         "boost_ref_2":"2",
+         "freeFeatID":"GENERAL_Survey Wildlife",
+         "skill":"Survival",
+         "lore":"Fishing",
+         "description":"One of your legs was bitten off below the knee by a shark when you were just a child, and was replaced with a wooden peg leg. You’ve long since gotten used to your prosthesis, however, and take none of the normal penalties from having a peg leg. You’ve had to learn to deal with the pain of your injury as well, hardening you to it, and you always keep a keen eye out for any sharks that might be after your other leg.<br><br><em>Prologue:</em> Your balance always gets a bit shaky after a few drinks, and last night at the Formidably Maid—a tavern in Port Peril—was no exception. That must be why you fell to the floor as soon as you tried to stand up. What happened next is hazy, but you’re pretty sure you were dragged out of the bar and onto a ship at the docks. At least they didn’t throw you to the sharks...<br><br><em>Special: You've been wearing this peg leg so long that you don't take any penalties for wearing it.</em>",
+         "src":"Custom"
+      },
+      {
+         "databaseID":1,
+         "id":"ad39ae56-28e0-41c7-b2e7-4796a058f1e2",
+         "name":"Ship's Surgeon",
+         "traits":"3rd Party",
+         "boost_ref_1":"0",
+         "boost_ref_2":"4",
+         "freeFeatID":"GENERAL_Risky Surgery",
+         "skill":"Medicine",
+         "lore":"Carpentry",
+         "description":"On a ship, a sailor often has to learn multiple skills, and this rule certainly applies to you. Your father was a woodworker, and you learned your first trade from him. But on your first voyage at sea you quickly found out that a carpenter is often a ship’s doctor as well—after all, who knows more about sawing off limbs than someone who saws wood for a living? People are a lot bloodier than wood, that’s for sure, but you haven’t had many complaints—those sailors who have enjoyed your services are either happy to be alive or dead, and there’s old salts who swear the peg legs you made for them are better than the real legs they used to have.<br><br><em>Prologue:</em> You were between ships in Port Peril, and after stopping for a drink at a tavern called the Formidably Maid, you happened upon a damsel in distress in the alleyway outside. Thinking you could help, you didn’t notice the thugs hiding nearby, and they caught you unawares. You’ve been on enough ships to know a press gang by the blow of the sap on the back of your neck—you just hope whatever ship you end up on needs a surgeon. <br><br><em>Special: Although the majority of your equipment was taken away when you were press-ganged, you managed to hang on to a fully-stocked healer’s toolkit, and you begin the campaign with it, regardless of your starting circumstances.</em>",
+         "src":"Custom"
+      },
+      {
+         "databaseID":1,
+         "id":"a805e273-3b46-4172-9c16-de10548cdf6f",
+         "name":"Touched by the Sea",
+         "traits":"3rd Party",
+         "boost_ref_1":"0",
+         "boost_ref_2":"2",
+         "freeFeatID":"GENERAL_Underwater Marauder",
+         "skill":"Athletics",
+         "lore":"Sailing",
+         "description":"You’ve always felt the call of the sea and your blood surges with the ebb and flow of the tides. Perhaps one of your parents was a sailor or pirate, or maybe one of your ancestors had a bit of aquatic elf or undine blood in them. Whatever the reason, you’re as comfortable in the water as you are on land.<br><br><em>Prologue:</em> You came to Port Peril in search of your destiny, and after a few drinks at a tavern called the Formidably Maid, you went down to the docks to take in a view of the sea. The last thing you remember is a blow to the back of your head and the waves rushing up to meet you.",
+         "src":"Custom"
+      }
+   ],
+   "listCustomWeapons":[
+      {
+         "databaseID":1,
+         "uniqueIdentiier":"7cb212f5-caa2-4fe8-aa0b-0913429479dc",
+         "name":"Cat-o-nine-tails",
+         "price":0.1,
+         "hands":"1",
+         "bulk":"L",
+         "description":"A special whip with 9 cords with sharp bits of metal or bone embedded within.",
+         "src":"Custom",
+         "proficiencyType":1,
+         "group":"Flail",
+         "weaponTraits":"3rd Party, Disarm, Nonlethal"
+      },
+      {
+         "databaseID":1,
+         "uniqueIdentiier":"53bee5e1-4a01-4126-b715-2273fbebdc14",
+         "name":"Cutlass",
+         "price":1,
+         "hands":"1",
+         "bulk":"1",
+         "description":"A short curved sword perfect for close-quarters engagements.",
+         "src":"Custom",
+         "proficiencyType":1,
+         "damage":6,
+         "weaponTraits":"3rd Party, Forceful, Sweep"
+      },
+      {
+         "databaseID":1,
+         "uniqueIdentiier":"36fdb38b-7d59-4db5-aabc-d58f65e9e6bb",
+         "name":"Grappling Hook",
+         "price":0.6,
+         "hands":"1",
+         "bulk":"L",
+         "src":"Custom",
+         "damage":4,
+         "group":"Knife",
+         "weaponTraits":"3rd Party, Grapple, Thrown 20 ft."
+      }
+   ]
+}
